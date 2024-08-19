@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guest Menu - Bark n Board</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <script>
+        function handleNavigation(action) {
+            if (action === 'create_account' || action === 'login') {
+                document.getElementById('guestForm').action = action;
+                document.getElementById('guestForm').submit();
+            } else {
+                window.location.href = action;
+            }
+        }
+    </script>
+</head>
+<body>
+    <h1>Welcome to Bark n Board!</h1>
+    <h2>Guest Menu</h2>
+
+    <!-- Welcome message with name -->
+    <div class="welcome-message">
+        <p>Hello, {{ name }}! Welcome to Bark n Board, your go-to destination for all your pet's boarding needs. Here, you can create an account, log in, add your furry friends, book a kennel, and manage your bookings. Choose an option below to get started!</p>
+    </div>
+
+    <!-- Single form for all actions -->
+    <form id="guestForm" method="POST">
+        <button type="button" onclick="handleNavigation('{{ url_for('login') }}')">Login</button>
+        <button type="button" onclick="handleNavigation('{{ url_for('add_dog_route') }}')">Add a Dog</button>
+        <button type="button" onclick="handleNavigation('{{ url_for('book_kennel_route') }}')">Book a Kennel</button>
+        <button type="button" onclick="handleNavigation('{{ url_for('view_dogs_route') }}')">View Dogs</button>
+        <button type="button" onclick="handleNavigation('{{ url_for('view_bookings_route') }}')">View Bookings</button>
+    </form>
+</body>
+</html>

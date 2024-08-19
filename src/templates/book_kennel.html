@@ -1,0 +1,31 @@
+<!-- templates/book_kennel.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book a Kennel - Bark n Board</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <h1>Book a Kennel</h1>
+    <form action="{{ url_for('book_kennel_route') }}" method="POST">
+        <label for="dog_id">Select Dog:</label>
+        <select id="dog_id" name="dog_id">
+            {% for dog in dogs %}
+            <option value="{{ dog.id }}">{{ dog.name }} ({{ dog.size_name }})</option>
+            {% endfor %}
+        </select><br><br>
+
+        <label for="checkin">Check-in Date:</label>
+        <input type="date" id="checkin" name="checkin" required><br><br>
+
+        <label for="checkout">Check-out Date:</label>
+        <input type="date" id="checkout" name="checkout" required><br><br>
+
+        <input type="submit" value="Book Kennel">
+    </form>
+
+    <a href="{{ url_for('guest_home') }}">Back to Menu</a>
+</body>
+</html>

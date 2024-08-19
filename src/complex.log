@@ -1,0 +1,429 @@
+2024-08-18 18:50:43,626 - ERROR - Error in login_route: Traceback (most recent call last):
+  File "C:\Users\revat\Documents\mongodb-quickstart-course\src\snake_bnb\src\app.py", line 78, in login
+    email = request.form['email']
+            ~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\revat\Documents\mongodb-quickstart-course\src\snake_bnb\src\venv\Lib\site-packages\werkzeug\datastructures\structures.py", line 196, in __getitem__
+    raise exceptions.BadRequestKeyError(key)
+werkzeug.exceptions.BadRequestKeyError: 400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+
+2024-08-18 18:50:43,626 - ERROR - Error in login_route: Traceback (most recent call last):
+  File "C:\Users\revat\Documents\mongodb-quickstart-course\src\snake_bnb\src\app.py", line 78, in login
+    email = request.form['email']
+            ~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\revat\Documents\mongodb-quickstart-course\src\snake_bnb\src\venv\Lib\site-packages\werkzeug\datastructures\structures.py", line 196, in __getitem__
+    raise exceptions.BadRequestKeyError(key)
+werkzeug.exceptions.BadRequestKeyError: 400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+
+2024-08-18 18:50:43,626 - ERROR - Error in login_route: Traceback (most recent call last):
+  File "C:\Users\revat\Documents\mongodb-quickstart-course\src\snake_bnb\src\app.py", line 78, in login
+    email = request.form['email']
+            ~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\revat\Documents\mongodb-quickstart-course\src\snake_bnb\src\venv\Lib\site-packages\werkzeug\datastructures\structures.py", line 196, in __getitem__
+    raise exceptions.BadRequestKeyError(key)
+werkzeug.exceptions.BadRequestKeyError: 400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+
+2024-08-18 18:50:43,626 - ERROR - Error in login_route: Traceback (most recent call last):
+  File "C:\Users\revat\Documents\mongodb-quickstart-course\src\snake_bnb\src\app.py", line 78, in login
+    email = request.form['email']
+            ~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\revat\Documents\mongodb-quickstart-course\src\snake_bnb\src\venv\Lib\site-packages\werkzeug\datastructures\structures.py", line 196, in __getitem__
+    raise exceptions.BadRequestKeyError(key)
+werkzeug.exceptions.BadRequestKeyError: 400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+
+2024-08-18 18:50:43,626 - ERROR - Error in login_route: Traceback (most recent call last):
+  File "C:\Users\revat\Documents\mongodb-quickstart-course\src\snake_bnb\src\app.py", line 78, in login
+    email = request.form['email']
+            ~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\revat\Documents\mongodb-quickstart-course\src\snake_bnb\src\venv\Lib\site-packages\werkzeug\datastructures\structures.py", line 196, in __getitem__
+    raise exceptions.BadRequestKeyError(key)
+werkzeug.exceptions.BadRequestKeyError: 400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+
+2024-08-18 18:50:43,626 - ERROR - Error in login_route: Traceback (most recent call last):
+  File "C:\Users\revat\Documents\mongodb-quickstart-course\src\snake_bnb\src\app.py", line 78, in login
+    email = request.form['email']
+            ~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\revat\Documents\mongodb-quickstart-course\src\snake_bnb\src\venv\Lib\site-packages\werkzeug\datastructures\structures.py", line 196, in __getitem__
+    raise exceptions.BadRequestKeyError(key)
+werkzeug.exceptions.BadRequestKeyError: 400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+
+2024-08-18 18:51:49,177 - ERROR - Error in login_route: Traceback (most recent call last):
+  File "C:\Users\revat\Documents\mongodb-quickstart-course\src\snake_bnb\src\app.py", line 78, in login
+    email = request.form['email']
+            ~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\revat\Documents\mongodb-quickstart-course\src\snake_bnb\src\venv\Lib\site-packages\werkzeug\datastructures\structures.py", line 196, in __getitem__
+    raise exceptions.BadRequestKeyError(key)
+werkzeug.exceptions.BadRequestKeyError: 400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+
+2024-08-18 18:51:49,177 - ERROR - Error in login_route: Traceback (most recent call last):
+  File "C:\Users\revat\Documents\mongodb-quickstart-course\src\snake_bnb\src\app.py", line 78, in login
+    email = request.form['email']
+            ~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\revat\Documents\mongodb-quickstart-course\src\snake_bnb\src\venv\Lib\site-packages\werkzeug\datastructures\structures.py", line 196, in __getitem__
+    raise exceptions.BadRequestKeyError(key)
+werkzeug.exceptions.BadRequestKeyError: 400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+
+2024-08-18 18:51:49,177 - ERROR - Error in login_route: Traceback (most recent call last):
+  File "C:\Users\revat\Documents\mongodb-quickstart-course\src\snake_bnb\src\app.py", line 78, in login
+    email = request.form['email']
+            ~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\revat\Documents\mongodb-quickstart-course\src\snake_bnb\src\venv\Lib\site-packages\werkzeug\datastructures\structures.py", line 196, in __getitem__
+    raise exceptions.BadRequestKeyError(key)
+werkzeug.exceptions.BadRequestKeyError: 400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+
+2024-08-18 18:51:49,177 - ERROR - Error in login_route: Traceback (most recent call last):
+  File "C:\Users\revat\Documents\mongodb-quickstart-course\src\snake_bnb\src\app.py", line 78, in login
+    email = request.form['email']
+            ~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\revat\Documents\mongodb-quickstart-course\src\snake_bnb\src\venv\Lib\site-packages\werkzeug\datastructures\structures.py", line 196, in __getitem__
+    raise exceptions.BadRequestKeyError(key)
+werkzeug.exceptions.BadRequestKeyError: 400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+
+2024-08-18 18:51:49,177 - ERROR - Error in login_route: Traceback (most recent call last):
+  File "C:\Users\revat\Documents\mongodb-quickstart-course\src\snake_bnb\src\app.py", line 78, in login
+    email = request.form['email']
+            ~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\revat\Documents\mongodb-quickstart-course\src\snake_bnb\src\venv\Lib\site-packages\werkzeug\datastructures\structures.py", line 196, in __getitem__
+    raise exceptions.BadRequestKeyError(key)
+werkzeug.exceptions.BadRequestKeyError: 400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+
+2024-08-18 18:51:49,177 - ERROR - Error in login_route: Traceback (most recent call last):
+  File "C:\Users\revat\Documents\mongodb-quickstart-course\src\snake_bnb\src\app.py", line 78, in login
+    email = request.form['email']
+            ~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\revat\Documents\mongodb-quickstart-course\src\snake_bnb\src\venv\Lib\site-packages\werkzeug\datastructures\structures.py", line 196, in __getitem__
+    raise exceptions.BadRequestKeyError(key)
+werkzeug.exceptions.BadRequestKeyError: 400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+
+2024-08-18 18:51:49,177 - ERROR - Error in login_route: Traceback (most recent call last):
+  File "C:\Users\revat\Documents\mongodb-quickstart-course\src\snake_bnb\src\app.py", line 78, in login
+    email = request.form['email']
+            ~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\revat\Documents\mongodb-quickstart-course\src\snake_bnb\src\venv\Lib\site-packages\werkzeug\datastructures\structures.py", line 196, in __getitem__
+    raise exceptions.BadRequestKeyError(key)
+werkzeug.exceptions.BadRequestKeyError: 400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+
+2024-08-19 13:44:49,863 - ERROR - Error in login_route: Traceback (most recent call last):
+  File "C:\Users\revat\Documents\mongodb-quickstart-course\src\snake_bnb\src\app.py", line 90, in login
+    print(state.active_account.id)
+          ^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'id'
+
+2024-08-19 13:44:49,863 - ERROR - Error in login_route: Traceback (most recent call last):
+  File "C:\Users\revat\Documents\mongodb-quickstart-course\src\snake_bnb\src\app.py", line 90, in login
+    print(state.active_account.id)
+          ^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'id'
+
+2024-08-19 13:47:08,281 - ERROR - Error in login_route: Traceback (most recent call last):
+  File "C:\Users\revat\Documents\mongodb-quickstart-course\src\snake_bnb\src\app.py", line 90, in login
+    print(state.active_account.id)
+          ^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'id'
+
+2024-08-19 13:47:08,281 - ERROR - Error in login_route: Traceback (most recent call last):
+  File "C:\Users\revat\Documents\mongodb-quickstart-course\src\snake_bnb\src\app.py", line 90, in login
+    print(state.active_account.id)
+          ^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'id'
+
+2024-08-19 13:47:18,134 - ERROR - Error in login_route: Traceback (most recent call last):
+  File "C:\Users\revat\Documents\mongodb-quickstart-course\src\snake_bnb\src\app.py", line 90, in login
+    print(state.active_account.id)
+          ^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'id'
+
+2024-08-19 13:47:18,134 - ERROR - Error in login_route: Traceback (most recent call last):
+  File "C:\Users\revat\Documents\mongodb-quickstart-course\src\snake_bnb\src\app.py", line 90, in login
+    print(state.active_account.id)
+          ^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'id'
+
+2024-08-19 13:47:18,134 - ERROR - Error in login_route: Traceback (most recent call last):
+  File "C:\Users\revat\Documents\mongodb-quickstart-course\src\snake_bnb\src\app.py", line 90, in login
+    print(state.active_account.id)
+          ^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'id'
+
+2024-08-19 13:50:02,634 - ERROR - Error in login_route: Traceback (most recent call last):
+  File "C:\Users\revat\Documents\mongodb-quickstart-course\src\snake_bnb\src\app.py", line 90, in login
+    print(state.active_account.id)
+          ^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'id'
+
+2024-08-19 13:50:02,634 - ERROR - Error in login_route: Traceback (most recent call last):
+  File "C:\Users\revat\Documents\mongodb-quickstart-course\src\snake_bnb\src\app.py", line 90, in login
+    print(state.active_account.id)
+          ^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'id'
+
+2024-08-19 13:50:21,283 - ERROR - Error in login_route: Traceback (most recent call last):
+  File "C:\Users\revat\Documents\mongodb-quickstart-course\src\snake_bnb\src\app.py", line 90, in login
+    print(state.active_account.id)
+          ^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'id'
+
+2024-08-19 13:50:21,283 - ERROR - Error in login_route: Traceback (most recent call last):
+  File "C:\Users\revat\Documents\mongodb-quickstart-course\src\snake_bnb\src\app.py", line 90, in login
+    print(state.active_account.id)
+          ^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'id'
+
+2024-08-19 13:50:21,283 - ERROR - Error in login_route: Traceback (most recent call last):
+  File "C:\Users\revat\Documents\mongodb-quickstart-course\src\snake_bnb\src\app.py", line 90, in login
+    print(state.active_account.id)
+          ^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'id'
+
+2024-08-19 13:52:36,609 - ERROR - Error in login_route: Traceback (most recent call last):
+  File "C:\Users\revat\Documents\mongodb-quickstart-course\src\snake_bnb\src\app.py", line 84, in login
+    state.active_account = svc.find_account_by_email(email)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\revat\Documents\mongodb-quickstart-course\src\snake_bnb\src\services\data_service.py", line 23, in find_account_by_email
+    owner = Owner.objects(email=email).first()
+            ^^^^^^^^^^^^^
+  File "C:\Users\revat\Documents\mongodb-quickstart-course\src\snake_bnb\src\venv\Lib\site-packages\mongoengine\queryset\manager.py", line 38, in __get__
+    queryset = queryset_class(owner, owner._get_collection())
+                                     ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\revat\Documents\mongodb-quickstart-course\src\snake_bnb\src\venv\Lib\site-packages\mongoengine\document.py", line 224, in _get_collection
+    db = cls._get_db()
+         ^^^^^^^^^^^^^
+  File "C:\Users\revat\Documents\mongodb-quickstart-course\src\snake_bnb\src\venv\Lib\site-packages\mongoengine\document.py", line 202, in _get_db
+    return get_db(cls._meta.get("db_alias", DEFAULT_CONNECTION_NAME))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\revat\Documents\mongodb-quickstart-course\src\snake_bnb\src\venv\Lib\site-packages\mongoengine\connection.py", line 415, in get_db
+    conn = get_connection(alias)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\revat\Documents\mongodb-quickstart-course\src\snake_bnb\src\venv\Lib\site-packages\mongoengine\connection.py", line 317, in get_connection
+    raise ConnectionFailure(msg)
+mongoengine.connection.ConnectionFailure: Connection with alias "core" has not been defined
+
+2024-08-19 13:52:36,609 - ERROR - Error in login_route: Traceback (most recent call last):
+  File "C:\Users\revat\Documents\mongodb-quickstart-course\src\snake_bnb\src\app.py", line 84, in login
+    state.active_account = svc.find_account_by_email(email)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\revat\Documents\mongodb-quickstart-course\src\snake_bnb\src\services\data_service.py", line 23, in find_account_by_email
+    owner = Owner.objects(email=email).first()
+            ^^^^^^^^^^^^^
+  File "C:\Users\revat\Documents\mongodb-quickstart-course\src\snake_bnb\src\venv\Lib\site-packages\mongoengine\queryset\manager.py", line 38, in __get__
+    queryset = queryset_class(owner, owner._get_collection())
+                                     ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\revat\Documents\mongodb-quickstart-course\src\snake_bnb\src\venv\Lib\site-packages\mongoengine\document.py", line 224, in _get_collection
+    db = cls._get_db()
+         ^^^^^^^^^^^^^
+  File "C:\Users\revat\Documents\mongodb-quickstart-course\src\snake_bnb\src\venv\Lib\site-packages\mongoengine\document.py", line 202, in _get_db
+    return get_db(cls._meta.get("db_alias", DEFAULT_CONNECTION_NAME))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\revat\Documents\mongodb-quickstart-course\src\snake_bnb\src\venv\Lib\site-packages\mongoengine\connection.py", line 415, in get_db
+    conn = get_connection(alias)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\revat\Documents\mongodb-quickstart-course\src\snake_bnb\src\venv\Lib\site-packages\mongoengine\connection.py", line 317, in get_connection
+    raise ConnectionFailure(msg)
+mongoengine.connection.ConnectionFailure: Connection with alias "core" has not been defined
+
+2024-08-19 13:52:46,272 - ERROR - Error in login_route: Traceback (most recent call last):
+  File "C:\Users\revat\Documents\mongodb-quickstart-course\src\snake_bnb\src\app.py", line 84, in login
+    state.active_account = svc.find_account_by_email(email)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\revat\Documents\mongodb-quickstart-course\src\snake_bnb\src\services\data_service.py", line 23, in find_account_by_email
+    owner = Owner.objects(email=email).first()
+            ^^^^^^^^^^^^^
+  File "C:\Users\revat\Documents\mongodb-quickstart-course\src\snake_bnb\src\venv\Lib\site-packages\mongoengine\queryset\manager.py", line 38, in __get__
+    queryset = queryset_class(owner, owner._get_collection())
+                                     ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\revat\Documents\mongodb-quickstart-course\src\snake_bnb\src\venv\Lib\site-packages\mongoengine\document.py", line 224, in _get_collection
+    db = cls._get_db()
+         ^^^^^^^^^^^^^
+  File "C:\Users\revat\Documents\mongodb-quickstart-course\src\snake_bnb\src\venv\Lib\site-packages\mongoengine\document.py", line 202, in _get_db
+    return get_db(cls._meta.get("db_alias", DEFAULT_CONNECTION_NAME))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\revat\Documents\mongodb-quickstart-course\src\snake_bnb\src\venv\Lib\site-packages\mongoengine\connection.py", line 415, in get_db
+    conn = get_connection(alias)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\revat\Documents\mongodb-quickstart-course\src\snake_bnb\src\venv\Lib\site-packages\mongoengine\connection.py", line 317, in get_connection
+    raise ConnectionFailure(msg)
+mongoengine.connection.ConnectionFailure: Connection with alias "core" has not been defined
+
+2024-08-19 13:52:46,272 - ERROR - Error in login_route: Traceback (most recent call last):
+  File "C:\Users\revat\Documents\mongodb-quickstart-course\src\snake_bnb\src\app.py", line 84, in login
+    state.active_account = svc.find_account_by_email(email)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\revat\Documents\mongodb-quickstart-course\src\snake_bnb\src\services\data_service.py", line 23, in find_account_by_email
+    owner = Owner.objects(email=email).first()
+            ^^^^^^^^^^^^^
+  File "C:\Users\revat\Documents\mongodb-quickstart-course\src\snake_bnb\src\venv\Lib\site-packages\mongoengine\queryset\manager.py", line 38, in __get__
+    queryset = queryset_class(owner, owner._get_collection())
+                                     ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\revat\Documents\mongodb-quickstart-course\src\snake_bnb\src\venv\Lib\site-packages\mongoengine\document.py", line 224, in _get_collection
+    db = cls._get_db()
+         ^^^^^^^^^^^^^
+  File "C:\Users\revat\Documents\mongodb-quickstart-course\src\snake_bnb\src\venv\Lib\site-packages\mongoengine\document.py", line 202, in _get_db
+    return get_db(cls._meta.get("db_alias", DEFAULT_CONNECTION_NAME))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\revat\Documents\mongodb-quickstart-course\src\snake_bnb\src\venv\Lib\site-packages\mongoengine\connection.py", line 415, in get_db
+    conn = get_connection(alias)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\revat\Documents\mongodb-quickstart-course\src\snake_bnb\src\venv\Lib\site-packages\mongoengine\connection.py", line 317, in get_connection
+    raise ConnectionFailure(msg)
+mongoengine.connection.ConnectionFailure: Connection with alias "core" has not been defined
+
+2024-08-19 13:52:46,272 - ERROR - Error in login_route: Traceback (most recent call last):
+  File "C:\Users\revat\Documents\mongodb-quickstart-course\src\snake_bnb\src\app.py", line 84, in login
+    state.active_account = svc.find_account_by_email(email)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\revat\Documents\mongodb-quickstart-course\src\snake_bnb\src\services\data_service.py", line 23, in find_account_by_email
+    owner = Owner.objects(email=email).first()
+            ^^^^^^^^^^^^^
+  File "C:\Users\revat\Documents\mongodb-quickstart-course\src\snake_bnb\src\venv\Lib\site-packages\mongoengine\queryset\manager.py", line 38, in __get__
+    queryset = queryset_class(owner, owner._get_collection())
+                                     ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\revat\Documents\mongodb-quickstart-course\src\snake_bnb\src\venv\Lib\site-packages\mongoengine\document.py", line 224, in _get_collection
+    db = cls._get_db()
+         ^^^^^^^^^^^^^
+  File "C:\Users\revat\Documents\mongodb-quickstart-course\src\snake_bnb\src\venv\Lib\site-packages\mongoengine\document.py", line 202, in _get_db
+    return get_db(cls._meta.get("db_alias", DEFAULT_CONNECTION_NAME))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\revat\Documents\mongodb-quickstart-course\src\snake_bnb\src\venv\Lib\site-packages\mongoengine\connection.py", line 415, in get_db
+    conn = get_connection(alias)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\revat\Documents\mongodb-quickstart-course\src\snake_bnb\src\venv\Lib\site-packages\mongoengine\connection.py", line 317, in get_connection
+    raise ConnectionFailure(msg)
+mongoengine.connection.ConnectionFailure: Connection with alias "core" has not been defined
+
+2024-08-19 13:53:22,537 - ERROR - Error in login_route: Traceback (most recent call last):
+  File "C:\Users\revat\Documents\mongodb-quickstart-course\src\snake_bnb\src\app.py", line 84, in login
+    state.active_account = svc.find_account_by_email(email)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\revat\Documents\mongodb-quickstart-course\src\snake_bnb\src\services\data_service.py", line 23, in find_account_by_email
+    owner = Owner.objects(email=email).first()
+            ^^^^^^^^^^^^^
+  File "C:\Users\revat\Documents\mongodb-quickstart-course\src\snake_bnb\src\venv\Lib\site-packages\mongoengine\queryset\manager.py", line 38, in __get__
+    queryset = queryset_class(owner, owner._get_collection())
+                                     ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\revat\Documents\mongodb-quickstart-course\src\snake_bnb\src\venv\Lib\site-packages\mongoengine\document.py", line 224, in _get_collection
+    db = cls._get_db()
+         ^^^^^^^^^^^^^
+  File "C:\Users\revat\Documents\mongodb-quickstart-course\src\snake_bnb\src\venv\Lib\site-packages\mongoengine\document.py", line 202, in _get_db
+    return get_db(cls._meta.get("db_alias", DEFAULT_CONNECTION_NAME))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\revat\Documents\mongodb-quickstart-course\src\snake_bnb\src\venv\Lib\site-packages\mongoengine\connection.py", line 415, in get_db
+    conn = get_connection(alias)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\revat\Documents\mongodb-quickstart-course\src\snake_bnb\src\venv\Lib\site-packages\mongoengine\connection.py", line 317, in get_connection
+    raise ConnectionFailure(msg)
+mongoengine.connection.ConnectionFailure: Connection with alias "core" has not been defined
+
+2024-08-19 13:53:22,537 - ERROR - Error in login_route: Traceback (most recent call last):
+  File "C:\Users\revat\Documents\mongodb-quickstart-course\src\snake_bnb\src\app.py", line 84, in login
+    state.active_account = svc.find_account_by_email(email)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\revat\Documents\mongodb-quickstart-course\src\snake_bnb\src\services\data_service.py", line 23, in find_account_by_email
+    owner = Owner.objects(email=email).first()
+            ^^^^^^^^^^^^^
+  File "C:\Users\revat\Documents\mongodb-quickstart-course\src\snake_bnb\src\venv\Lib\site-packages\mongoengine\queryset\manager.py", line 38, in __get__
+    queryset = queryset_class(owner, owner._get_collection())
+                                     ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\revat\Documents\mongodb-quickstart-course\src\snake_bnb\src\venv\Lib\site-packages\mongoengine\document.py", line 224, in _get_collection
+    db = cls._get_db()
+         ^^^^^^^^^^^^^
+  File "C:\Users\revat\Documents\mongodb-quickstart-course\src\snake_bnb\src\venv\Lib\site-packages\mongoengine\document.py", line 202, in _get_db
+    return get_db(cls._meta.get("db_alias", DEFAULT_CONNECTION_NAME))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\revat\Documents\mongodb-quickstart-course\src\snake_bnb\src\venv\Lib\site-packages\mongoengine\connection.py", line 415, in get_db
+    conn = get_connection(alias)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\revat\Documents\mongodb-quickstart-course\src\snake_bnb\src\venv\Lib\site-packages\mongoengine\connection.py", line 317, in get_connection
+    raise ConnectionFailure(msg)
+mongoengine.connection.ConnectionFailure: Connection with alias "core" has not been defined
+
+2024-08-19 13:55:30,929 - ERROR - Error in login_route: Traceback (most recent call last):
+  File "C:\Users\revat\Documents\mongodb-quickstart-course\src\snake_bnb\src\app.py", line 84, in login
+    state.active_account = svc.find_account_by_email(email)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\revat\Documents\mongodb-quickstart-course\src\snake_bnb\src\services\data_service.py", line 23, in find_account_by_email
+    owner = Owner.objects(email=email).first()
+            ^^^^^^^^^^^^^
+  File "C:\Users\revat\Documents\mongodb-quickstart-course\src\snake_bnb\src\venv\Lib\site-packages\mongoengine\queryset\manager.py", line 38, in __get__
+    queryset = queryset_class(owner, owner._get_collection())
+                                     ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\revat\Documents\mongodb-quickstart-course\src\snake_bnb\src\venv\Lib\site-packages\mongoengine\document.py", line 224, in _get_collection
+    db = cls._get_db()
+         ^^^^^^^^^^^^^
+  File "C:\Users\revat\Documents\mongodb-quickstart-course\src\snake_bnb\src\venv\Lib\site-packages\mongoengine\document.py", line 202, in _get_db
+    return get_db(cls._meta.get("db_alias", DEFAULT_CONNECTION_NAME))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\revat\Documents\mongodb-quickstart-course\src\snake_bnb\src\venv\Lib\site-packages\mongoengine\connection.py", line 415, in get_db
+    conn = get_connection(alias)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\revat\Documents\mongodb-quickstart-course\src\snake_bnb\src\venv\Lib\site-packages\mongoengine\connection.py", line 317, in get_connection
+    raise ConnectionFailure(msg)
+mongoengine.connection.ConnectionFailure: Connection with alias "core" has not been defined
+
+2024-08-19 13:55:30,929 - ERROR - Error in login_route: Traceback (most recent call last):
+  File "C:\Users\revat\Documents\mongodb-quickstart-course\src\snake_bnb\src\app.py", line 84, in login
+    state.active_account = svc.find_account_by_email(email)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\revat\Documents\mongodb-quickstart-course\src\snake_bnb\src\services\data_service.py", line 23, in find_account_by_email
+    owner = Owner.objects(email=email).first()
+            ^^^^^^^^^^^^^
+  File "C:\Users\revat\Documents\mongodb-quickstart-course\src\snake_bnb\src\venv\Lib\site-packages\mongoengine\queryset\manager.py", line 38, in __get__
+    queryset = queryset_class(owner, owner._get_collection())
+                                     ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\revat\Documents\mongodb-quickstart-course\src\snake_bnb\src\venv\Lib\site-packages\mongoengine\document.py", line 224, in _get_collection
+    db = cls._get_db()
+         ^^^^^^^^^^^^^
+  File "C:\Users\revat\Documents\mongodb-quickstart-course\src\snake_bnb\src\venv\Lib\site-packages\mongoengine\document.py", line 202, in _get_db
+    return get_db(cls._meta.get("db_alias", DEFAULT_CONNECTION_NAME))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\revat\Documents\mongodb-quickstart-course\src\snake_bnb\src\venv\Lib\site-packages\mongoengine\connection.py", line 415, in get_db
+    conn = get_connection(alias)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\revat\Documents\mongodb-quickstart-course\src\snake_bnb\src\venv\Lib\site-packages\mongoengine\connection.py", line 317, in get_connection
+    raise ConnectionFailure(msg)
+mongoengine.connection.ConnectionFailure: Connection with alias "core" has not been defined
+
+2024-08-19 13:57:18,869 - ERROR - Error in login_route: Traceback (most recent call last):
+  File "C:\Users\revat\Documents\mongodb-quickstart-course\src\snake_bnb\src\app.py", line 84, in login
+    state.active_account = svc.find_account_by_email(email)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\revat\Documents\mongodb-quickstart-course\src\snake_bnb\src\services\data_service.py", line 23, in find_account_by_email
+    owner = Owner.objects(email=email).first()
+            ^^^^^^^^^^^^^
+  File "C:\Users\revat\Documents\mongodb-quickstart-course\src\snake_bnb\src\venv\Lib\site-packages\mongoengine\queryset\manager.py", line 38, in __get__
+    queryset = queryset_class(owner, owner._get_collection())
+                                     ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\revat\Documents\mongodb-quickstart-course\src\snake_bnb\src\venv\Lib\site-packages\mongoengine\document.py", line 224, in _get_collection
+    db = cls._get_db()
+         ^^^^^^^^^^^^^
+  File "C:\Users\revat\Documents\mongodb-quickstart-course\src\snake_bnb\src\venv\Lib\site-packages\mongoengine\document.py", line 202, in _get_db
+    return get_db(cls._meta.get("db_alias", DEFAULT_CONNECTION_NAME))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\revat\Documents\mongodb-quickstart-course\src\snake_bnb\src\venv\Lib\site-packages\mongoengine\connection.py", line 415, in get_db
+    conn = get_connection(alias)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\revat\Documents\mongodb-quickstart-course\src\snake_bnb\src\venv\Lib\site-packages\mongoengine\connection.py", line 317, in get_connection
+    raise ConnectionFailure(msg)
+mongoengine.connection.ConnectionFailure: Connection with alias "core" has not been defined
+
+2024-08-19 13:57:18,869 - ERROR - Error in login_route: Traceback (most recent call last):
+  File "C:\Users\revat\Documents\mongodb-quickstart-course\src\snake_bnb\src\app.py", line 84, in login
+    state.active_account = svc.find_account_by_email(email)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\revat\Documents\mongodb-quickstart-course\src\snake_bnb\src\services\data_service.py", line 23, in find_account_by_email
+    owner = Owner.objects(email=email).first()
+            ^^^^^^^^^^^^^
+  File "C:\Users\revat\Documents\mongodb-quickstart-course\src\snake_bnb\src\venv\Lib\site-packages\mongoengine\queryset\manager.py", line 38, in __get__
+    queryset = queryset_class(owner, owner._get_collection())
+                                     ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\revat\Documents\mongodb-quickstart-course\src\snake_bnb\src\venv\Lib\site-packages\mongoengine\document.py", line 224, in _get_collection
+    db = cls._get_db()
+         ^^^^^^^^^^^^^
+  File "C:\Users\revat\Documents\mongodb-quickstart-course\src\snake_bnb\src\venv\Lib\site-packages\mongoengine\document.py", line 202, in _get_db
+    return get_db(cls._meta.get("db_alias", DEFAULT_CONNECTION_NAME))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\revat\Documents\mongodb-quickstart-course\src\snake_bnb\src\venv\Lib\site-packages\mongoengine\connection.py", line 415, in get_db
+    conn = get_connection(alias)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\revat\Documents\mongodb-quickstart-course\src\snake_bnb\src\venv\Lib\site-packages\mongoengine\connection.py", line 317, in get_connection
+    raise ConnectionFailure(msg)
+mongoengine.connection.ConnectionFailure: Connection with alias "core" has not been defined
+

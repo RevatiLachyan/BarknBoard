@@ -1,0 +1,194 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: #007BFF;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+/* Form Styles */
+form {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    display: inline-block;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+label {
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+input[type="email"],
+select,
+button {
+    padding: 10px;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+input[type="email"] {
+    width: 200px;
+}
+
+select {
+    width: 220px;
+}
+
+button {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 1em;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Image Styles */
+img {
+    width: 200px;
+    height: auto;
+    margin: 20px;
+    border-radius: 8px;
+}
+
+/* Message Styles */
+.message {
+    font-size: 1.2em;
+    color: #28a745; /* Green color for success messages */
+    margin-top: 20px;
+}
+
+.error {
+    font-size: 1.2em;
+    color: #dc3545; /* Red color for error messages */
+    margin-top: 20px;
+}
+
+/* Link Styles */
+a {
+    color: #007BFF;
+    text-decoration: none;
+    font-size: 1em;
+    margin-top: 20px;
+    display: inline-block;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+/* static/css/style.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    padding: 20px;
+}
+
+h1 {
+    color: #00509e;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin: 5px 0;
+}
+
+a {
+    color: #00509e;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+form {
+    margin: 20px 0;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+select,
+input[type="date"] {
+    padding: 8px;
+    margin-bottom: 10px;
+    width: 100%;
+    max-width: 400px;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    padding: 10px 15px;
+    background-color: #00509e;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #003f7d;
+}
+.container {
+    text-align: center;
+    margin: 20px;
+}
+
+.image-container {
+    margin-bottom: 20px;
+}
+.image-container img {
+    width: 100%; /* Adjust as needed */
+    max-width: 600px; /* Adjust as needed */
+    height: auto;
+}
+
+.login-form {
+    display: inline-block;
+    text-align: left;
+}
+/* Table styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}

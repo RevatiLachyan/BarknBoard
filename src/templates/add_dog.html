@@ -1,0 +1,34 @@
+<!-- templates/add_dog.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add a Dog - Bark n Board</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <h1>Add a Dog</h1>
+    <form action="{{ url_for('add_dog_route') }}" method="POST">
+        <label for="name">Dog's Name:</label>
+        <input type="text" id="name" name="name" required><br><br>
+
+        <label for="size">Size:</label>
+        <select id="size" name="size">
+            <option value="0">Small</option>
+            <option value="1">Medium</option>
+            <option value="2">Large</option>
+        </select><br><br>
+
+        <label for="breed">Breed:</label>
+        <input type="text" id="breed" name="breed" required><br><br>
+
+        <label for="is_unsocial">Is Unsocial:</label>
+        <input type="checkbox" id="is_unsocial" name="is_unsocial"><br><br>
+
+        <input type="submit" value="Add Dog">
+    </form>
+
+    <a href="{{ url_for('guest_home') }}">Back to Menu</a>
+</body>
+</html>

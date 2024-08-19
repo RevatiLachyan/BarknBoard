@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Dogs - Bark n Board</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <h1>Your Dogs</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Breed</th>
+                <th>Size</th>
+                <th>Social Status</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for dog in dogs %}
+            <tr>
+                <td>{{ dog.name }}</td>
+                <td>{{ dog.breed }}</td>
+                 <td>
+                    {% if dog.size == 0 %}
+                        Small
+                    {% elif dog.size == 1 %}
+                        Medium
+                    {% elif dog.size == 2 %}
+                        Large
+                    {% else %}
+                        Unknown
+                    {% endif %}
+                </td>
+                <td>{% if dog.is_unsocial %}Unsocial{% else %}Not Unsocial{% endif %}</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+
+    <a href="{{ url_for('guest_home') }}">Back to Menu</a>
+</body>
+</html>

@@ -1,0 +1,833 @@
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 941-232-890
+INFO:werkzeug: * Detected change in 'C:\\Users\\revat\\Documents\\mongodb-quickstart-course\\src\\snake_bnb\\src\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 941-232-890
+INFO:werkzeug: * Detected change in 'C:\\Users\\revat\\Documents\\mongodb-quickstart-course\\src\\snake_bnb\\src\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 941-232-890
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 941-232-890
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 941-232-890
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Detected change in 'C:\\Users\\revat\\Documents\\mongodb-quickstart-course\\src\\snake_bnb\\src\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 941-232-890
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 941-232-890
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 941-232-890
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2024 18:20:52] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2024 18:20:52] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2024 18:20:52] "[36mGET /static/dog.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2024 18:20:53] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2024 18:20:55] "[31m[1mPOST /login HTTP/1.1[0m" 405 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\revat\\Documents\\mongodb-quickstart-course\\src\\snake_bnb\\src\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 941-232-890
+INFO:werkzeug: * Detected change in 'C:\\Users\\revat\\Documents\\mongodb-quickstart-course\\src\\snake_bnb\\src\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 941-232-890
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 941-232-890
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2024 18:23:18] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2024 18:23:18] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2024 18:23:18] "[36mGET /static/dog.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2024 18:23:24] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2024 18:23:34] "[31m[1mPOST /login HTTP/1.1[0m" 405 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\revat\\Documents\\mongodb-quickstart-course\\src\\snake_bnb\\src\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 941-232-890
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 941-232-890
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2024 18:28:55] "[31m[1mPOST /login HTTP/1.1[0m" 405 -
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2024 18:29:00] "[35m[1mGET /login HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2024 18:29:00] "GET /login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2024 18:29:00] "GET /login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2024 18:29:00] "GET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2024 18:29:00] "[36mGET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\revat\\Documents\\mongodb-quickstart-course\\src\\snake_bnb\\src\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 941-232-890
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 941-232-890
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2024 18:30:15] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2024 18:30:15] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2024 18:30:15] "[36mGET /static/dog.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2024 18:30:22] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2024 18:30:24] "[31m[1mPOST /login HTTP/1.1[0m" 405 -
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2024 18:30:31] "[35m[1mGET /login HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2024 18:30:31] "[36mGET /login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2024 18:30:31] "[36mGET /login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2024 18:30:31] "[36mGET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2024 18:30:31] "[36mGET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 941-232-890
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2024 18:34:02] "[31m[1mPOST /login HTTP/1.1[0m" 405 -
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2024 18:34:09] "[35m[1mGET /login HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2024 18:34:09] "[36mGET /login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2024 18:34:09] "[36mGET /login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2024 18:34:09] "[36mGET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2024 18:34:09] "[36mGET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 941-232-890
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2024 18:37:13] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2024 18:37:13] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2024 18:37:13] "[36mGET /static/dog.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2024 18:37:17] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2024 18:37:20] "[31m[1mPOST /login HTTP/1.1[0m" 405 -
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2024 18:37:22] "GET /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2024 18:37:22] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2024 18:37:28] "[31m[1mPOST /login HTTP/1.1[0m" 405 -
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2024 18:37:36] "[31m[1mPOST /login HTTP/1.1[0m" 405 -
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2024 18:37:37] "[31m[1mPOST /login HTTP/1.1[0m" 405 -
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2024 18:37:41] "GET /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2024 18:37:41] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2024 18:37:55] "[31m[1mPOST /login HTTP/1.1[0m" 405 -
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2024 18:38:05] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2024 18:38:07] "[31m[1mPOST /login HTTP/1.1[0m" 405 -
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2024 18:38:09] "GET /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2024 18:38:09] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2024 18:39:16] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2024 18:39:16] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2024 18:39:16] "[36mGET /static/dog.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2024 18:39:25] "[31m[1mPOST /login HTTP/1.1[0m" 405 -
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2024 18:39:34] "GET /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2024 18:39:34] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2024 18:40:02] "GET /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2024 18:40:02] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\revat\\Documents\\mongodb-quickstart-course\\src\\snake_bnb\\src\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 941-232-890
+INFO:werkzeug: * Detected change in 'C:\\Users\\revat\\Documents\\mongodb-quickstart-course\\src\\snake_bnb\\src\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 941-232-890
+INFO:werkzeug: * Detected change in 'C:\\Users\\revat\\Documents\\mongodb-quickstart-course\\src\\snake_bnb\\src\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 941-232-890
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 941-232-890
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2024 18:46:04] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2024 18:46:04] "[36mGET /static/dog.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2024 18:46:04] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2024 18:46:22] "POST /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2024 18:46:22] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2024 18:46:27] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2024 18:46:30] "POST /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2024 18:46:46] "POST /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2024 18:46:46] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2024 18:46:51] "[35m[1mGET /view_dogs HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2024 18:46:51] "GET /view_dogs?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2024 18:46:51] "GET /view_dogs?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2024 18:46:51] "GET /view_dogs?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2024 18:46:51] "[36mGET /view_dogs?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2024 18:50:41] "POST /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2024 18:50:41] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+ERROR:app:Error in login_route: Traceback (most recent call last):
+  File "C:\Users\revat\Documents\mongodb-quickstart-course\src\snake_bnb\src\app.py", line 78, in login
+    email = request.form['email']
+            ~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\revat\Documents\mongodb-quickstart-course\src\snake_bnb\src\venv\Lib\site-packages\werkzeug\datastructures\structures.py", line 196, in __getitem__
+    raise exceptions.BadRequestKeyError(key)
+werkzeug.exceptions.BadRequestKeyError: 400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2024 18:50:43] "[35m[1mPOST /login HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2024 18:50:43] "[36mGET /login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2024 18:50:43] "[36mGET /login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2024 18:50:43] "[36mGET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2024 18:50:43] "[36mGET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+ERROR:app:Error in login_route: Traceback (most recent call last):
+  File "C:\Users\revat\Documents\mongodb-quickstart-course\src\snake_bnb\src\app.py", line 78, in login
+    email = request.form['email']
+            ~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\revat\Documents\mongodb-quickstart-course\src\snake_bnb\src\venv\Lib\site-packages\werkzeug\datastructures\structures.py", line 196, in __getitem__
+    raise exceptions.BadRequestKeyError(key)
+werkzeug.exceptions.BadRequestKeyError: 400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2024 18:51:49] "[35m[1mPOST /login HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2024 18:51:49] "[36mGET /login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2024 18:51:49] "[36mGET /login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2024 18:51:49] "[36mGET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2024 18:51:49] "[36mGET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\revat\\Documents\\mongodb-quickstart-course\\src\\snake_bnb\\src\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 941-232-890
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2024 20:00:17] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2024 20:00:18] "[36mGET /static/dog.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2024 20:00:18] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2024 20:00:21] "POST /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2024 20:00:21] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 941-232-890
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2024 20:02:10] "GET /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2024 20:02:10] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2024 20:02:10] "[36mGET /static/dog.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2024 20:02:14] "POST /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2024 20:02:14] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2024 20:02:16] "GET /create_account_route HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2024 20:02:16] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2024 20:02:20] "GET /guest_home HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2024 20:02:20] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2024 20:02:21] "GET /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2024 20:02:21] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2024 20:02:21] "[36mGET /static/dog.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2024 20:02:26] "POST /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2024 20:02:26] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2024 20:02:27] "[35m[1mGET /book_kennel HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2024 20:02:27] "GET /book_kennel?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2024 20:02:27] "GET /book_kennel?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2024 20:02:27] "GET /book_kennel?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2024 20:02:27] "[36mGET /book_kennel?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2024 20:02:30] "[35m[1mGET /add_dog HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2024 20:02:30] "GET /add_dog?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2024 20:02:30] "GET /add_dog?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2024 20:02:30] "GET /add_dog?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2024 20:02:30] "[36mGET /add_dog?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 941-232-890
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2024 20:03:09] "GET /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2024 20:03:09] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2024 20:03:09] "[36mGET /static/dog.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2024 20:03:12] "POST /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2024 20:03:12] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2024 20:03:13] "GET /add_dog HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2024 20:03:13] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2024 20:03:44] "[35m[1mPOST /add_dog HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2024 20:03:44] "[36mGET /add_dog?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2024 20:03:44] "[36mGET /add_dog?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2024 20:03:44] "[36mGET /add_dog?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2024 20:03:44] "[36mGET /add_dog?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2024 20:03:55] "GET /guest_home HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2024 20:03:55] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2024 20:03:56] "[35m[1mGET /book_kennel HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2024 20:03:56] "[36mGET /book_kennel?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2024 20:03:56] "[36mGET /book_kennel?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2024 20:03:56] "[36mGET /book_kennel?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2024 20:03:58] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2024 20:04:10] "[35m[1mGET /view_dogs HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2024 20:04:10] "[36mGET /view_dogs?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2024 20:04:10] "[36mGET /view_dogs?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2024 20:04:10] "[36mGET /view_dogs?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2024 13:11:10] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2024 13:11:10] "[36mGET /static/dog.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2024 13:11:10] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\revat\\Documents\\mongodb-quickstart-course\\src\\snake_bnb\\src\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 941-232-890
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 941-232-890
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2024 13:41:51] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2024 13:41:51] "[36mGET /static/dog.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2024 13:41:51] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2024 13:41:56] "POST /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2024 13:41:56] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2024 13:41:58] "GET /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2024 13:41:58] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2024 13:41:58] "[36mGET /static/dog.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2024 13:42:01] "POST /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2024 13:42:01] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2024 13:42:04] "[35m[1mGET /view_dogs HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2024 13:42:04] "[36mGET /view_dogs?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2024 13:42:04] "[36mGET /view_dogs?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2024 13:42:04] "[36mGET /view_dogs?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2024 13:42:45] "[35m[1mGET /book_kennel HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2024 13:42:45] "[36mGET /book_kennel?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2024 13:42:45] "[36mGET /book_kennel?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2024 13:42:45] "[36mGET /book_kennel?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\revat\\Documents\\mongodb-quickstart-course\\src\\snake_bnb\\src\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 941-232-890
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 941-232-890
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2024 13:43:41] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2024 13:43:41] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2024 13:43:41] "[36mGET /static/dog.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2024 13:43:47] "POST /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2024 13:43:47] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\revat\\Documents\\mongodb-quickstart-course\\src\\snake_bnb\\src\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 941-232-890
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2024 13:44:37] "GET /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2024 13:44:37] "[36mGET /static/dog.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2024 13:44:37] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 941-232-890
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2024 13:44:45] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2024 13:44:45] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2024 13:44:45] "[36mGET /static/dog.jpg HTTP/1.1[0m" 304 -
+ERROR:app:Error in login_route: Traceback (most recent call last):
+  File "C:\Users\revat\Documents\mongodb-quickstart-course\src\snake_bnb\src\app.py", line 90, in login
+    print(state.active_account.id)
+          ^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'id'
+
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2024 13:44:49] "[35m[1mPOST /login HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2024 13:44:49] "[36mGET /login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2024 13:44:49] "[36mGET /login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2024 13:44:49] "[36mGET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2024 13:44:49] "[36mGET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\revat\\Documents\\mongodb-quickstart-course\\src\\snake_bnb\\src\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 941-232-890
+INFO:werkzeug: * Detected change in 'C:\\Users\\revat\\Documents\\mongodb-quickstart-course\\src\\snake_bnb\\src\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 941-232-890
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 941-232-890
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2024 13:47:05] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2024 13:47:05] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2024 13:47:05] "[36mGET /static/dog.jpg HTTP/1.1[0m" 304 -
+ERROR:app:Error in login_route: Traceback (most recent call last):
+  File "C:\Users\revat\Documents\mongodb-quickstart-course\src\snake_bnb\src\app.py", line 90, in login
+    print(state.active_account.id)
+          ^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'id'
+
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2024 13:47:08] "[32mPOST /login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2024 13:47:08] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2024 13:47:08] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2024 13:47:08] "[36mGET /static/dog.jpg HTTP/1.1[0m" 304 -
+ERROR:app:Error in login_route: Traceback (most recent call last):
+  File "C:\Users\revat\Documents\mongodb-quickstart-course\src\snake_bnb\src\app.py", line 90, in login
+    print(state.active_account.id)
+          ^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'id'
+
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2024 13:47:18] "[32mPOST /login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2024 13:47:18] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2024 13:47:18] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2024 13:47:18] "[36mGET /static/dog.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\revat\\Documents\\mongodb-quickstart-course\\src\\snake_bnb\\src\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 941-232-890
+INFO:werkzeug: * Detected change in 'C:\\Users\\revat\\Documents\\mongodb-quickstart-course\\src\\snake_bnb\\src\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 941-232-890
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2024 13:49:59] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2024 13:49:59] "[36mGET /static/dog.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2024 13:49:59] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+ERROR:app:Error in login_route: Traceback (most recent call last):
+  File "C:\Users\revat\Documents\mongodb-quickstart-course\src\snake_bnb\src\app.py", line 90, in login
+    print(state.active_account.id)
+          ^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'id'
+
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2024 13:50:02] "[32mPOST /login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2024 13:50:02] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2024 13:50:02] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2024 13:50:02] "[36mGET /static/dog.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2024 13:50:10] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2024 13:50:10] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2024 13:50:10] "[36mGET /static/dog.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2024 13:50:15] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2024 13:50:15] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2024 13:50:15] "[36mGET /static/dog.jpg HTTP/1.1[0m" 304 -
+ERROR:app:Error in login_route: Traceback (most recent call last):
+  File "C:\Users\revat\Documents\mongodb-quickstart-course\src\snake_bnb\src\app.py", line 90, in login
+    print(state.active_account.id)
+          ^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'id'
+
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2024 13:50:21] "[32mPOST /login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2024 13:50:21] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2024 13:50:21] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2024 13:50:21] "[36mGET /static/dog.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\revat\\Documents\\mongodb-quickstart-course\\src\\snake_bnb\\src\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 941-232-890
+INFO:werkzeug: * Detected change in 'C:\\Users\\revat\\Documents\\mongodb-quickstart-course\\src\\snake_bnb\\src\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 941-232-890
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 941-232-890
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2024 13:52:31] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2024 13:52:31] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2024 13:52:31] "[36mGET /static/dog.jpg HTTP/1.1[0m" 304 -
+ERROR:app:Error in login_route: Traceback (most recent call last):
+  File "C:\Users\revat\Documents\mongodb-quickstart-course\src\snake_bnb\src\app.py", line 84, in login
+    state.active_account = svc.find_account_by_email(email)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\revat\Documents\mongodb-quickstart-course\src\snake_bnb\src\services\data_service.py", line 23, in find_account_by_email
+    owner = Owner.objects(email=email).first()
+            ^^^^^^^^^^^^^
+  File "C:\Users\revat\Documents\mongodb-quickstart-course\src\snake_bnb\src\venv\Lib\site-packages\mongoengine\queryset\manager.py", line 38, in __get__
+    queryset = queryset_class(owner, owner._get_collection())
+                                     ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\revat\Documents\mongodb-quickstart-course\src\snake_bnb\src\venv\Lib\site-packages\mongoengine\document.py", line 224, in _get_collection
+    db = cls._get_db()
+         ^^^^^^^^^^^^^
+  File "C:\Users\revat\Documents\mongodb-quickstart-course\src\snake_bnb\src\venv\Lib\site-packages\mongoengine\document.py", line 202, in _get_db
+    return get_db(cls._meta.get("db_alias", DEFAULT_CONNECTION_NAME))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\revat\Documents\mongodb-quickstart-course\src\snake_bnb\src\venv\Lib\site-packages\mongoengine\connection.py", line 415, in get_db
+    conn = get_connection(alias)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\revat\Documents\mongodb-quickstart-course\src\snake_bnb\src\venv\Lib\site-packages\mongoengine\connection.py", line 317, in get_connection
+    raise ConnectionFailure(msg)
+mongoengine.connection.ConnectionFailure: Connection with alias "core" has not been defined
+
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2024 13:52:36] "[32mPOST /login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2024 13:52:36] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2024 13:52:36] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2024 13:52:36] "[36mGET /static/dog.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2024 13:52:43] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+ERROR:app:Error in login_route: Traceback (most recent call last):
+  File "C:\Users\revat\Documents\mongodb-quickstart-course\src\snake_bnb\src\app.py", line 84, in login
+    state.active_account = svc.find_account_by_email(email)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\revat\Documents\mongodb-quickstart-course\src\snake_bnb\src\services\data_service.py", line 23, in find_account_by_email
+    owner = Owner.objects(email=email).first()
+            ^^^^^^^^^^^^^
+  File "C:\Users\revat\Documents\mongodb-quickstart-course\src\snake_bnb\src\venv\Lib\site-packages\mongoengine\queryset\manager.py", line 38, in __get__
+    queryset = queryset_class(owner, owner._get_collection())
+                                     ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\revat\Documents\mongodb-quickstart-course\src\snake_bnb\src\venv\Lib\site-packages\mongoengine\document.py", line 224, in _get_collection
+    db = cls._get_db()
+         ^^^^^^^^^^^^^
+  File "C:\Users\revat\Documents\mongodb-quickstart-course\src\snake_bnb\src\venv\Lib\site-packages\mongoengine\document.py", line 202, in _get_db
+    return get_db(cls._meta.get("db_alias", DEFAULT_CONNECTION_NAME))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\revat\Documents\mongodb-quickstart-course\src\snake_bnb\src\venv\Lib\site-packages\mongoengine\connection.py", line 415, in get_db
+    conn = get_connection(alias)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\revat\Documents\mongodb-quickstart-course\src\snake_bnb\src\venv\Lib\site-packages\mongoengine\connection.py", line 317, in get_connection
+    raise ConnectionFailure(msg)
+mongoengine.connection.ConnectionFailure: Connection with alias "core" has not been defined
+
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2024 13:52:46] "[32mPOST /login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2024 13:52:46] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2024 13:52:46] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2024 13:52:46] "[36mGET /static/dog.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 941-232-890
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2024 13:53:17] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2024 13:53:18] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2024 13:53:18] "[36mGET /static/dog.jpg HTTP/1.1[0m" 304 -
+ERROR:app:Error in login_route: Traceback (most recent call last):
+  File "C:\Users\revat\Documents\mongodb-quickstart-course\src\snake_bnb\src\app.py", line 84, in login
+    state.active_account = svc.find_account_by_email(email)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\revat\Documents\mongodb-quickstart-course\src\snake_bnb\src\services\data_service.py", line 23, in find_account_by_email
+    owner = Owner.objects(email=email).first()
+            ^^^^^^^^^^^^^
+  File "C:\Users\revat\Documents\mongodb-quickstart-course\src\snake_bnb\src\venv\Lib\site-packages\mongoengine\queryset\manager.py", line 38, in __get__
+    queryset = queryset_class(owner, owner._get_collection())
+                                     ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\revat\Documents\mongodb-quickstart-course\src\snake_bnb\src\venv\Lib\site-packages\mongoengine\document.py", line 224, in _get_collection
+    db = cls._get_db()
+         ^^^^^^^^^^^^^
+  File "C:\Users\revat\Documents\mongodb-quickstart-course\src\snake_bnb\src\venv\Lib\site-packages\mongoengine\document.py", line 202, in _get_db
+    return get_db(cls._meta.get("db_alias", DEFAULT_CONNECTION_NAME))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\revat\Documents\mongodb-quickstart-course\src\snake_bnb\src\venv\Lib\site-packages\mongoengine\connection.py", line 415, in get_db
+    conn = get_connection(alias)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\revat\Documents\mongodb-quickstart-course\src\snake_bnb\src\venv\Lib\site-packages\mongoengine\connection.py", line 317, in get_connection
+    raise ConnectionFailure(msg)
+mongoengine.connection.ConnectionFailure: Connection with alias "core" has not been defined
+
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2024 13:53:22] "[32mPOST /login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2024 13:53:22] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2024 13:53:22] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2024 13:53:22] "[36mGET /static/dog.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\revat\\Documents\\mongodb-quickstart-course\\src\\snake_bnb\\src\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 941-232-890
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 941-232-890
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2024 13:55:27] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2024 13:55:27] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2024 13:55:27] "[36mGET /static/dog.jpg HTTP/1.1[0m" 304 -
+ERROR:app:Error in login_route: Traceback (most recent call last):
+  File "C:\Users\revat\Documents\mongodb-quickstart-course\src\snake_bnb\src\app.py", line 84, in login
+    state.active_account = svc.find_account_by_email(email)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\revat\Documents\mongodb-quickstart-course\src\snake_bnb\src\services\data_service.py", line 23, in find_account_by_email
+    owner = Owner.objects(email=email).first()
+            ^^^^^^^^^^^^^
+  File "C:\Users\revat\Documents\mongodb-quickstart-course\src\snake_bnb\src\venv\Lib\site-packages\mongoengine\queryset\manager.py", line 38, in __get__
+    queryset = queryset_class(owner, owner._get_collection())
+                                     ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\revat\Documents\mongodb-quickstart-course\src\snake_bnb\src\venv\Lib\site-packages\mongoengine\document.py", line 224, in _get_collection
+    db = cls._get_db()
+         ^^^^^^^^^^^^^
+  File "C:\Users\revat\Documents\mongodb-quickstart-course\src\snake_bnb\src\venv\Lib\site-packages\mongoengine\document.py", line 202, in _get_db
+    return get_db(cls._meta.get("db_alias", DEFAULT_CONNECTION_NAME))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\revat\Documents\mongodb-quickstart-course\src\snake_bnb\src\venv\Lib\site-packages\mongoengine\connection.py", line 415, in get_db
+    conn = get_connection(alias)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\revat\Documents\mongodb-quickstart-course\src\snake_bnb\src\venv\Lib\site-packages\mongoengine\connection.py", line 317, in get_connection
+    raise ConnectionFailure(msg)
+mongoengine.connection.ConnectionFailure: Connection with alias "core" has not been defined
+
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2024 13:55:30] "[32mPOST /login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2024 13:55:30] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2024 13:55:30] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2024 13:55:30] "[36mGET /static/dog.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 941-232-890
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2024 13:57:14] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2024 13:57:15] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2024 13:57:15] "[36mGET /static/dog.jpg HTTP/1.1[0m" 304 -
+ERROR:app:Error in login_route: Traceback (most recent call last):
+  File "C:\Users\revat\Documents\mongodb-quickstart-course\src\snake_bnb\src\app.py", line 84, in login
+    state.active_account = svc.find_account_by_email(email)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\revat\Documents\mongodb-quickstart-course\src\snake_bnb\src\services\data_service.py", line 23, in find_account_by_email
+    owner = Owner.objects(email=email).first()
+            ^^^^^^^^^^^^^
+  File "C:\Users\revat\Documents\mongodb-quickstart-course\src\snake_bnb\src\venv\Lib\site-packages\mongoengine\queryset\manager.py", line 38, in __get__
+    queryset = queryset_class(owner, owner._get_collection())
+                                     ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\revat\Documents\mongodb-quickstart-course\src\snake_bnb\src\venv\Lib\site-packages\mongoengine\document.py", line 224, in _get_collection
+    db = cls._get_db()
+         ^^^^^^^^^^^^^
+  File "C:\Users\revat\Documents\mongodb-quickstart-course\src\snake_bnb\src\venv\Lib\site-packages\mongoengine\document.py", line 202, in _get_db
+    return get_db(cls._meta.get("db_alias", DEFAULT_CONNECTION_NAME))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\revat\Documents\mongodb-quickstart-course\src\snake_bnb\src\venv\Lib\site-packages\mongoengine\connection.py", line 415, in get_db
+    conn = get_connection(alias)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\revat\Documents\mongodb-quickstart-course\src\snake_bnb\src\venv\Lib\site-packages\mongoengine\connection.py", line 317, in get_connection
+    raise ConnectionFailure(msg)
+mongoengine.connection.ConnectionFailure: Connection with alias "core" has not been defined
+
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2024 13:57:18] "[32mPOST /login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2024 13:57:18] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2024 13:57:18] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2024 13:57:18] "[36mGET /static/dog.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\revat\\Documents\\mongodb-quickstart-course\\src\\snake_bnb\\src\\data\\mongo_setup.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 941-232-890
+INFO:werkzeug: * Detected change in 'C:\\Users\\revat\\Documents\\mongodb-quickstart-course\\src\\snake_bnb\\src\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 941-232-890
+INFO:werkzeug: * Detected change in 'C:\\Users\\revat\\Documents\\mongodb-quickstart-course\\src\\snake_bnb\\src\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 941-232-890
+INFO:werkzeug: * Detected change in 'C:\\Users\\revat\\Documents\\mongodb-quickstart-course\\src\\snake_bnb\\src\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 941-232-890
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 941-232-890
+INFO:werkzeug: * Detected change in 'C:\\Users\\revat\\Documents\\mongodb-quickstart-course\\src\\snake_bnb\\src\\data\\mongo_setup.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 941-232-890
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 941-232-890
+INFO:werkzeug: * Detected change in 'C:\\Users\\revat\\Documents\\mongodb-quickstart-course\\src\\snake_bnb\\src\\data\\mongo_setup.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 941-232-890
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 941-232-890
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2024 14:05:23] "[32mPOST /login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2024 14:05:23] "GET /guest_home HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2024 14:05:23] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2024 14:05:34] "GET /view_dogs HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2024 14:05:34] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2024 14:05:38] "GET /guest_home HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2024 14:05:38] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2024 14:05:39] "GET /view_bookings HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2024 14:05:39] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2024 14:05:40] "GET /guest_home HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2024 14:05:40] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2024 14:05:40] "GET /book_kennel HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2024 14:05:40] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2024 14:06:00] "GET /guest_home HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2024 14:06:00] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 941-232-890
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2024 14:07:09] "[35m[1mGET /guest_home HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2024 14:07:09] "GET /guest_home?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2024 14:07:09] "GET /guest_home?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2024 14:07:09] "GET /guest_home?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2024 14:07:09] "[36mGET /guest_home?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2024 14:07:13] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2024 14:07:13] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2024 14:07:13] "[36mGET /static/dog.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2024 14:07:16] "[32mPOST /login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2024 14:07:16] "GET /guest_home HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2024 14:07:16] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\revat\\Documents\\mongodb-quickstart-course\\src\\snake_bnb\\src\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 941-232-890
+INFO:werkzeug: * Detected change in 'C:\\Users\\revat\\Documents\\mongodb-quickstart-course\\src\\snake_bnb\\src\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 941-232-890
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 941-232-890
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2024 14:09:36] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2024 14:09:36] "[36mGET /static/dog.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2024 14:09:36] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2024 14:09:39] "[32mPOST /login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2024 14:09:39] "GET /guest_home HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2024 14:09:39] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 941-232-890
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2024 14:10:27] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2024 14:10:27] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2024 14:10:27] "[36mGET /static/dog.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2024 14:10:31] "[32mPOST /login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2024 14:10:31] "GET /guest_home HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2024 14:10:31] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2024 14:10:41] "GET /create_account_route HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2024 14:10:41] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2024 14:10:43] "GET /guest_home HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2024 14:10:43] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 941-232-890
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2024 14:14:31] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2024 14:14:31] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 941-232-890
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2024 14:18:13] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2024 14:18:14] "[33mGET /static/images/dog.jpg HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2024 14:18:14] "GET /static/css/style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2024 14:18:35] "GET /create_account_route HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2024 14:18:35] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2024 14:18:37] "[35m[1mGET /guest_home HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2024 14:18:37] "[36mGET /guest_home?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2024 14:18:37] "[36mGET /guest_home?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2024 14:18:37] "[36mGET /guest_home?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2024 14:18:37] "[36mGET /guest_home?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 941-232-890
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2024 14:20:20] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2024 14:20:20] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2024 14:20:20] "[36mGET /static/dog.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2024 14:20:33] "[32mPOST /login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2024 14:20:33] "GET /guest_home HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2024 14:20:33] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2024 14:20:35] "GET /add_dog HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2024 14:20:35] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2024 14:20:39] "GET /book_kennel HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2024 14:20:39] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2024 14:20:43] "GET /view_dogs HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2024 14:20:43] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2024 14:20:46] "GET /guest_home HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2024 14:20:46] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 941-232-890
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2024 14:25:29] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2024 14:25:29] "GET /static/css/style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2024 14:25:29] "[36mGET /static/dog.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2024 14:25:34] "[32mPOST /login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2024 14:25:34] "GET /guest_home HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2024 14:25:34] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2024 14:25:37] "GET /view_dogs HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2024 14:25:37] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 941-232-890
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2024 14:26:18] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2024 14:26:18] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2024 14:26:18] "[36mGET /static/dog.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2024 14:26:22] "[32mPOST /login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2024 14:26:22] "GET /guest_home HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2024 14:26:22] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2024 14:26:24] "GET /view_dogs HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2024 14:26:24] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 941-232-890
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2024 14:27:23] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2024 14:27:23] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2024 14:27:23] "[36mGET /static/dog.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2024 14:27:28] "[32mPOST /login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2024 14:27:28] "GET /guest_home HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2024 14:27:28] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2024 14:27:29] "GET /view_dogs HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2024 14:27:29] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2024 14:27:42] "GET /view_bookings HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2024 14:27:42] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2024 14:27:43] "GET /guest_home HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2024 14:27:43] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\revat\\Documents\\mongodb-quickstart-course\\src\\snake_bnb\\src\\app.py', reloading
+INFO:werkzeug: * Restarting with stat

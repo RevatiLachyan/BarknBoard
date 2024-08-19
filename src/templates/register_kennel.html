@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register Kennel - Bark n Board</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <h1>Register a New Kennel</h1>
+    <form action="{{ url_for('register_kennel') }}" method="POST">
+        <label for="name">Kennel Name:</label>
+        <input type="text" id="name" name="name" required><br>
+
+        <label for="size">Size:</label>
+        <select id="size" name="size">
+            <option value="0">Small</option>
+            <option value="1">Medium</option>
+            <option value="2">Large</option>
+        </select><br>
+
+        <label for="allow_unsocial">Allow Unsocial Dogs:</label>
+        <input type="checkbox" id="allow_unsocial" name="allow_unsocial"><br>
+
+        <label for="has_toys">Has Toys:</label>
+        <input type="checkbox" id="has_toys" name="has_toys"><br>
+
+        <label for="price">Price:</label>
+        <input type="number" id="price" name="price" step="0.01" required><br>
+
+        <button type="submit">Register Kennel</button>
+    </form>
+
+    <a href="{{ url_for('host_home') }}">Back to Host Dashboard</a>
+</body>
+</html>
