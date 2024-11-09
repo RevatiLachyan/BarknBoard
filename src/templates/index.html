@@ -7,6 +7,15 @@
     <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
 </head>
 <body>
+{% with messages = get_flashed_messages(with_categories=True) %}
+        {% if messages %}
+                {% for category, msg in messages %}
+                <div class="flash-{{ category }}">
+                <p>{{msg}}</p>
+                </div>
+                {% endfor %}
+        {% endif %}
+    {% endwith %}
     <div class="container">
         <!-- Image section -->
         <div class="image-container">

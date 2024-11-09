@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Check Kennels - Bark n Board</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <h1>Your Kennels</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Kennel Name</th>
+                <th>Size</th>
+                <th>Allows Unsocial Dogs</th>
+                <th>Has Toys</th>
+                <th>Price (per day)</th>
+                <th>Occupied</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for kennel in kennels %}
+            <tr>
+                <td>{{ kennel.name }}</td>
+                <td>
+                    {% if kennel.size == 0 %}
+                        Small
+                    {% elif kennel.size == 1 %}
+                        Medium
+                    {% else %}
+                        Large
+                    {% endif %}
+                </td>
+                <td>{{ 'Yes' if kennel.allow_unsocial_dogs else 'No' }}</td>
+                <td>{{ 'Yes' if kennel.has_toys else 'No' }}</td>
+                <td>${{ kennel.price }}</td>
+                <td>{{ 'Yes' if kennel.is_occupied else 'No' }}</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+
+    <a href="{{ url_for('host_home') }}">Back to Menu</a>
+</body>
+</html>

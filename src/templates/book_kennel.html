@@ -4,27 +4,79 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Book a Kennel - Bark n Board</title>
+    <title>Book Kennel - Bark n Board</title>
     <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
 </head>
 <body>
+{% if error_message %}
+    <p style="color: red;">{{ error_message }}</p>
+{% endif %}
     <h1>Book a Kennel</h1>
-    <form action="{{ url_for('book_kennel_route') }}" method="POST">
-        <label for="dog_id">Select Dog:</label>
-        <select id="dog_id" name="dog_id">
-            {% for dog in dogs %}
-            <option value="{{ dog.id }}">{{ dog.name }} ({{ dog.size_name }})</option>
-            {% endfor %}
-        </select><br><br>
 
-        <label for="checkin">Check-in Date:</label>
-        <input type="date" id="checkin" name="checkin" required><br><br>
-
-        <label for="checkout">Check-out Date:</label>
-        <input type="date" id="checkout" name="checkout" required><br><br>
-
-        <input type="submit" value="Book Kennel">
+    <form method="POST">
+        <table>
+            <tr>
+                <td><label for="dog_id">Select Dog:</label></td>
+                <td>
+                    <select name="dog_id" id="dog_id" required>
+                        {% for dog in dogs %}
+                        <option value="{{ dog.id }}">{{ dog.name }} ({{ dog.breed }})</option>
+                        {% endfor %}
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="checkin">Check-In Date:</label></td>
+                <td><input type="date" id="checkin" name="checkin" required></td>
+            </tr>
+            <tr>
+                <td><label for="checkout">Check-Out Date:</label></td>
+                <td><input type="date" id="checkout" name="checkout" required></td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <button type="submit" name="find_kennels">Find Available Kennels</button>
+                </td>
+            </tr>
+        </table>
     </form>
+
+    {% if available_kennels %}
+    <h2>Available Kennels</h2>
+    <form method="POST">
+        <input type="hidden" name="dog_id" value="{{ dogs[0].id }}">
+        <input type="hidden" name="checkin" value="{{ checkin_date }}">
+        <input type="hidden" name="checkout" value="{{ checkout_date }}">
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Select</th>
+                    <th>Kennel Name</th>
+                    <th>Size</th>
+                    <th>Price</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for kennel in available_kennels %}
+                <tr>
+                    <td><input type="radio" name="kennel_id" value="{{ kennel.id }}" required></td>
+                    <td>{{ kennel.name }}</td>
+                    <td> {% if kennel.size == 0 %}
+                        Small
+                    {% elif kennel.size == 1 %}
+                        Medium
+                    {% else %}
+                        Large
+                    {% endif %}</td>
+                    <td>${{ kennel.price }}</td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+        <button type="submit" name="book_kennel">Book Kennel</button>
+    </form>
+    {% endif %}
 
     <a href="{{ url_for('guest_home') }}">Back to Menu</a>
 </body>

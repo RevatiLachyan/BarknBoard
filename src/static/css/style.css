@@ -192,3 +192,26 @@ th, td {
 th {
     background-color: #f2f2f2;
 }
+
+.flash-messages {
+    margin: 10px;
+}
+
+.flash {
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.flash.success {
+    background-color: #d4edda;
+    color: #155724;
+}
+
+.flash.error {
+    background-color: #f8d7da;
+    color: #721c24;
+}
+.unoccupied {
+         color: red;
+        }

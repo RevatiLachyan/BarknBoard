@@ -19,8 +19,8 @@
         </thead>
         <tbody>
             {% for booking in bookings %}
-            <tr>
-                <td>{{ booking.dog.name }}</td>
+            <tr >
+                <td class="{% if not booking.dog.name %}unoccupied{% endif %}">{{ booking.dog.name if booking.dog.name else 'Unoccupied' }}</td>
                 <td>{{ booking.kennel_name }}</td>
                 <td>{{ booking.check_in_date.strftime('%Y-%m-%d') }}</td>
                 <td>{{ booking.check_out_date.strftime('%Y-%m-%d')  }}</td>
@@ -29,6 +29,6 @@
         </tbody>
     </table>
 
-    <a href="{{ url_for('guest_home') }}">Back to Menu</a>
+    <a href="{{ url_for('host_home') }}">Back to Menu</a>
 </body>
 </html>

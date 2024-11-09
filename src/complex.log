@@ -427,3 +427,279 @@ mongoengine.connection.ConnectionFailure: Connection with alias "core" has not b
     raise ConnectionFailure(msg)
 mongoengine.connection.ConnectionFailure: Connection with alias "core" has not been defined
 
+2024-11-08 14:35:10,910 - ERROR - Error in login_route: Traceback (most recent call last):
+  File "C:\Users\revat\Documents\mongodb-quickstart-course\src\snake_bnb\src\app.py", line 124, in login
+    app.logger.info(f"Logged in as guest: {state.active_account.id}")
+                                           ^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'id'
+
+2024-11-08 14:35:10,910 - ERROR - Error in login_route: Traceback (most recent call last):
+  File "C:\Users\revat\Documents\mongodb-quickstart-course\src\snake_bnb\src\app.py", line 124, in login
+    app.logger.info(f"Logged in as guest: {state.active_account.id}")
+                                           ^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'id'
+
+2024-11-08 14:38:17,129 - ERROR - Error in login_route: Traceback (most recent call last):
+  File "C:\Users\revat\Documents\mongodb-quickstart-course\src\snake_bnb\src\app.py", line 124, in login
+    app.logger.info(f"Logged in as guest: {state.active_account.id}")
+                                           ^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'id'
+
+2024-11-08 14:38:17,129 - ERROR - Error in login_route: Traceback (most recent call last):
+  File "C:\Users\revat\Documents\mongodb-quickstart-course\src\snake_bnb\src\app.py", line 124, in login
+    app.logger.info(f"Logged in as guest: {state.active_account.id}")
+                                           ^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'id'
+
+2024-11-08 14:49:56,651 - ERROR - Error in login_route: Traceback (most recent call last):
+  File "C:\Users\revat\Documents\mongodb-quickstart-course\src\snake_bnb\src\app.py", line 124, in login
+    app.logger.info(f"Logged in as guest: {state.active_account.id}")
+                                           ^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'id'
+
+2024-11-08 14:49:56,651 - ERROR - Error in login_route: Traceback (most recent call last):
+  File "C:\Users\revat\Documents\mongodb-quickstart-course\src\snake_bnb\src\app.py", line 124, in login
+    app.logger.info(f"Logged in as guest: {state.active_account.id}")
+                                           ^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'id'
+
+2024-11-08 15:01:08,784 - ERROR - Error in login_route: Traceback (most recent call last):
+  File "C:\Users\revat\Documents\mongodb-quickstart-course\src\snake_bnb\src\app.py", line 124, in login
+    app.logger.info(f"Logged in as guest: {state.active_account.id}")
+                                           ^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'id'
+
+2024-11-08 15:01:08,784 - ERROR - Error in login_route: Traceback (most recent call last):
+  File "C:\Users\revat\Documents\mongodb-quickstart-course\src\snake_bnb\src\app.py", line 124, in login
+    app.logger.info(f"Logged in as guest: {state.active_account.id}")
+                                           ^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'id'
+
+2024-11-08 15:41:53,321 - ERROR - Error in login_route: Traceback (most recent call last):
+  File "C:\Users\revat\Documents\mongodb-quickstart-course\src\snake_bnb\src\app.py", line 127, in login
+    app.logger.info(f"Logged in as host: {state.active_account.id}")
+                                          ^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'id'
+
+2024-11-08 15:41:53,321 - ERROR - Error in login_route: Traceback (most recent call last):
+  File "C:\Users\revat\Documents\mongodb-quickstart-course\src\snake_bnb\src\app.py", line 127, in login
+    app.logger.info(f"Logged in as host: {state.active_account.id}")
+                                          ^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'id'
+
+2024-11-08 15:41:53,321 - ERROR - Error in login_route: Traceback (most recent call last):
+  File "C:\Users\revat\Documents\mongodb-quickstart-course\src\snake_bnb\src\app.py", line 127, in login
+    app.logger.info(f"Logged in as host: {state.active_account.id}")
+                                          ^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'id'
+
+2024-11-08 18:16:55,523 - ERROR - Error in login_route: Traceback (most recent call last):
+  File "C:\Users\revat\Documents\mongodb-quickstart-course\src\snake_bnb\src\app.py", line 124, in login
+    app.logger.info(f"Logged in as guest: {state.active_account.id}")
+                                           ^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'id'
+
+2024-11-08 18:16:55,523 - ERROR - Error in login_route: Traceback (most recent call last):
+  File "C:\Users\revat\Documents\mongodb-quickstart-course\src\snake_bnb\src\app.py", line 124, in login
+    app.logger.info(f"Logged in as guest: {state.active_account.id}")
+                                           ^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'id'
+
+2024-11-08 18:18:40,176 - ERROR - Error in login_route: Traceback (most recent call last):
+  File "C:\Users\revat\Documents\mongodb-quickstart-course\src\snake_bnb\src\app.py", line 124, in login
+    app.logger.info(f"Logged in as guest: {state.active_account.id}")
+                                           ^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'id'
+
+2024-11-08 18:18:40,176 - ERROR - Error in login_route: Traceback (most recent call last):
+  File "C:\Users\revat\Documents\mongodb-quickstart-course\src\snake_bnb\src\app.py", line 124, in login
+    app.logger.info(f"Logged in as guest: {state.active_account.id}")
+                                           ^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'id'
+
+2024-11-08 18:19:10,867 - ERROR - Error in login_route: Traceback (most recent call last):
+  File "C:\Users\revat\Documents\mongodb-quickstart-course\src\snake_bnb\src\app.py", line 124, in login
+    app.logger.info(f"Logged in as guest: {state.active_account.id}")
+                                           ^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'id'
+
+2024-11-08 18:19:10,867 - ERROR - Error in login_route: Traceback (most recent call last):
+  File "C:\Users\revat\Documents\mongodb-quickstart-course\src\snake_bnb\src\app.py", line 124, in login
+    app.logger.info(f"Logged in as guest: {state.active_account.id}")
+                                           ^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'id'
+
+2024-11-08 18:19:10,867 - ERROR - Error in login_route: Traceback (most recent call last):
+  File "C:\Users\revat\Documents\mongodb-quickstart-course\src\snake_bnb\src\app.py", line 124, in login
+    app.logger.info(f"Logged in as guest: {state.active_account.id}")
+                                           ^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'id'
+
+2024-11-08 18:19:38,485 - ERROR - Error in login_route: Traceback (most recent call last):
+  File "C:\Users\revat\Documents\mongodb-quickstart-course\src\snake_bnb\src\app.py", line 124, in login
+    app.logger.info(f"Logged in as guest: {state.active_account.id}")
+                                           ^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'id'
+
+2024-11-08 18:19:38,485 - ERROR - Error in login_route: Traceback (most recent call last):
+  File "C:\Users\revat\Documents\mongodb-quickstart-course\src\snake_bnb\src\app.py", line 124, in login
+    app.logger.info(f"Logged in as guest: {state.active_account.id}")
+                                           ^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'id'
+
+2024-11-08 18:19:38,485 - ERROR - Error in login_route: Traceback (most recent call last):
+  File "C:\Users\revat\Documents\mongodb-quickstart-course\src\snake_bnb\src\app.py", line 124, in login
+    app.logger.info(f"Logged in as guest: {state.active_account.id}")
+                                           ^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'id'
+
+2024-11-08 18:19:38,485 - ERROR - Error in login_route: Traceback (most recent call last):
+  File "C:\Users\revat\Documents\mongodb-quickstart-course\src\snake_bnb\src\app.py", line 124, in login
+    app.logger.info(f"Logged in as guest: {state.active_account.id}")
+                                           ^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'id'
+
+2024-11-08 18:20:53,863 - ERROR - Error in login_route: Traceback (most recent call last):
+  File "C:\Users\revat\Documents\mongodb-quickstart-course\src\snake_bnb\src\app.py", line 124, in login
+    app.logger.info(f"Logged in as guest: {state.active_account.id}")
+                                           ^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'id'
+
+2024-11-08 18:20:53,863 - ERROR - Error in login_route: Traceback (most recent call last):
+  File "C:\Users\revat\Documents\mongodb-quickstart-course\src\snake_bnb\src\app.py", line 124, in login
+    app.logger.info(f"Logged in as guest: {state.active_account.id}")
+                                           ^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'id'
+
+2024-11-08 18:20:53,863 - ERROR - Error in login_route: Traceback (most recent call last):
+  File "C:\Users\revat\Documents\mongodb-quickstart-course\src\snake_bnb\src\app.py", line 124, in login
+    app.logger.info(f"Logged in as guest: {state.active_account.id}")
+                                           ^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'id'
+
+2024-11-08 18:20:53,863 - ERROR - Error in login_route: Traceback (most recent call last):
+  File "C:\Users\revat\Documents\mongodb-quickstart-course\src\snake_bnb\src\app.py", line 124, in login
+    app.logger.info(f"Logged in as guest: {state.active_account.id}")
+                                           ^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'id'
+
+2024-11-08 18:20:53,863 - ERROR - Error in login_route: Traceback (most recent call last):
+  File "C:\Users\revat\Documents\mongodb-quickstart-course\src\snake_bnb\src\app.py", line 124, in login
+    app.logger.info(f"Logged in as guest: {state.active_account.id}")
+                                           ^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'id'
+
+2024-11-08 18:22:43,739 - ERROR - Error in login_route: Traceback (most recent call last):
+  File "C:\Users\revat\Documents\mongodb-quickstart-course\src\snake_bnb\src\app.py", line 124, in login
+    app.logger.info(f"Logged in as guest: {state.active_account.id}")
+                                           ^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'id'
+
+2024-11-08 18:22:43,739 - ERROR - Error in login_route: Traceback (most recent call last):
+  File "C:\Users\revat\Documents\mongodb-quickstart-course\src\snake_bnb\src\app.py", line 124, in login
+    app.logger.info(f"Logged in as guest: {state.active_account.id}")
+                                           ^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'id'
+
+2024-11-08 18:26:35,200 - ERROR - Error in login_route: Traceback (most recent call last):
+  File "C:\Users\revat\Documents\mongodb-quickstart-course\src\snake_bnb\src\app.py", line 124, in login
+    print(f"Logged in as: {state.active_account.id}")
+                           ^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'id'
+
+2024-11-08 18:26:35,200 - ERROR - Error in login_route: Traceback (most recent call last):
+  File "C:\Users\revat\Documents\mongodb-quickstart-course\src\snake_bnb\src\app.py", line 124, in login
+    print(f"Logged in as: {state.active_account.id}")
+                           ^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'id'
+
+2024-11-08 18:27:25,684 - ERROR - Error in login_route: Traceback (most recent call last):
+  File "C:\Users\revat\Documents\mongodb-quickstart-course\src\snake_bnb\src\app.py", line 125, in login
+    print(f"Logged in as: {state.active_account.id}")
+                           ^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'id'
+
+2024-11-08 18:27:25,684 - ERROR - Error in login_route: Traceback (most recent call last):
+  File "C:\Users\revat\Documents\mongodb-quickstart-course\src\snake_bnb\src\app.py", line 125, in login
+    print(f"Logged in as: {state.active_account.id}")
+                           ^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'id'
+
+2024-11-08 18:28:04,999 - ERROR - Error in login_route: Traceback (most recent call last):
+  File "C:\Users\revat\Documents\mongodb-quickstart-course\src\snake_bnb\src\app.py", line 125, in login
+    print(state.active_account.id)
+          ^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'id'
+
+2024-11-08 18:28:04,999 - ERROR - Error in login_route: Traceback (most recent call last):
+  File "C:\Users\revat\Documents\mongodb-quickstart-course\src\snake_bnb\src\app.py", line 125, in login
+    print(state.active_account.id)
+          ^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'id'
+
+2024-11-08 18:28:37,333 - ERROR - Error in login_route: Traceback (most recent call last):
+  File "C:\Users\revat\Documents\mongodb-quickstart-course\src\snake_bnb\src\app.py", line 126, in login
+    app.logger.info(f"Logged in as guest: {state.active_account.id}")
+                                           ^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'id'
+
+2024-11-08 18:28:37,333 - ERROR - Error in login_route: Traceback (most recent call last):
+  File "C:\Users\revat\Documents\mongodb-quickstart-course\src\snake_bnb\src\app.py", line 126, in login
+    app.logger.info(f"Logged in as guest: {state.active_account.id}")
+                                           ^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'id'
+
+2024-11-08 18:32:09,677 - ERROR - Error in login_route: Traceback (most recent call last):
+  File "C:\Users\revat\Documents\mongodb-quickstart-course\src\snake_bnb\src\app.py", line 126, in login
+    app.logger.info(f"Logged in as guest: {state.active_account.id}")
+                                           ^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'id'
+
+2024-11-08 18:32:09,677 - ERROR - Error in login_route: Traceback (most recent call last):
+  File "C:\Users\revat\Documents\mongodb-quickstart-course\src\snake_bnb\src\app.py", line 126, in login
+    app.logger.info(f"Logged in as guest: {state.active_account.id}")
+                                           ^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'id'
+
+2024-11-08 18:35:02,601 - ERROR - Error in login_route: Traceback (most recent call last):
+  File "C:\Users\revat\Documents\mongodb-quickstart-course\src\snake_bnb\src\app.py", line 126, in login
+    app.logger.info(f"Logged in as guest: {state.active_account.id}")
+                                           ^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'id'
+
+2024-11-08 18:35:02,601 - ERROR - Error in login_route: Traceback (most recent call last):
+  File "C:\Users\revat\Documents\mongodb-quickstart-course\src\snake_bnb\src\app.py", line 126, in login
+    app.logger.info(f"Logged in as guest: {state.active_account.id}")
+                                           ^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'id'
+
+2024-11-08 18:35:49,260 - ERROR - Error in login_route: Traceback (most recent call last):
+  File "C:\Users\revat\Documents\mongodb-quickstart-course\src\snake_bnb\src\app.py", line 129, in login
+    app.logger.info(f"Logged in as host: {state.active_account.id}")
+                                          ^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'id'
+
+2024-11-08 18:35:49,260 - ERROR - Error in login_route: Traceback (most recent call last):
+  File "C:\Users\revat\Documents\mongodb-quickstart-course\src\snake_bnb\src\app.py", line 129, in login
+    app.logger.info(f"Logged in as host: {state.active_account.id}")
+                                          ^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'id'
+
+2024-11-08 18:35:49,260 - ERROR - Error in login_route: Traceback (most recent call last):
+  File "C:\Users\revat\Documents\mongodb-quickstart-course\src\snake_bnb\src\app.py", line 129, in login
+    app.logger.info(f"Logged in as host: {state.active_account.id}")
+                                          ^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'id'
+
+2024-11-08 18:35:49,260 - ERROR - Error in login_route: Traceback (most recent call last):
+  File "C:\Users\revat\Documents\mongodb-quickstart-course\src\snake_bnb\src\app.py", line 129, in login
+    app.logger.info(f"Logged in as host: {state.active_account.id}")
+                                          ^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'id'
+
+2024-11-08 18:35:49,260 - ERROR - Error in login_route: Traceback (most recent call last):
+  File "C:\Users\revat\Documents\mongodb-quickstart-course\src\snake_bnb\src\app.py", line 129, in login
+    app.logger.info(f"Logged in as host: {state.active_account.id}")
+                                          ^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'id'
+

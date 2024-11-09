@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Available Date - Bark n Board</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+{% with messages = get_flashed_messages(with_categories=True) %}
+        {% if messages %}
+                {% for category, msg in messages %}
+                <div class="flash-{{ category }}">
+                <p>{{msg}}</p>
+                </div>
+                {% endfor %}
+        {% endif %}
+    {% endwith %}
+    <h1>Add Available Date for Kennel</h1>
+
+    <!-- Form to add available date -->
+    <form action="{{ url_for('add_available_date_route') }}" method="POST">
+        <label for="kennel_id">Select Kennel:</label>
+        <select id="kennel_id" name="kennel_id" required>
+            {% for kennel in kennels %}
+                <option value="{{ kennel.id }}">{{ kennel.name }}</option>
+            {% endfor %}
+        </select><br><br>
+
+        <label for="start_date">Start Date:</label>
+        <input type="date" id="start_date" name="start_date" required><br><br>
+
+        <label for="days">Number of Days:</label>
+        <input type="number" id="days" name="days" min="1" required><br><br>
+
+        <button type="submit">Add Available Date</button>
+    </form>
+
+    <a href="{{ url_for('host_home') }}">Back to Menu</a>
+</body>
+</html>

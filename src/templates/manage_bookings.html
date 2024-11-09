@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manage Bookings - Bark n Board</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <h1>Manage Bookings</h1>
+    <form method="POST">
+        <table>
+            <thead>
+                <tr>
+                    <th>Dog</th>
+                    <th>Kennel</th>
+                    <th>Check-In Date</th>
+                    <th>Check-Out Date</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for booking in bookings %}
+                <tr>
+                    <td>{{ booking.dog.name }}</td>
+                    <td>{{ booking.kennel.name }}</td>
+                    <td>{{ booking.check_in_date }}</td>
+                    <td>{{ booking.check_out_date }}</td>
+                    <td>
+                        <input type="hidden" name="booking_id" value="{{ booking.id }}">
+                        <button type="submit" name="action" value="approve">Approve</button>
+                        <button type="submit" name="action" value="reject">Reject</button>
+                    </td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </form>
+
+    <a href="{{ url_for('host_home') }}">Back to Host Menu</a>
+</body>
+</html>
