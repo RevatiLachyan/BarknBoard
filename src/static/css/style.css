@@ -215,3 +215,53 @@ th {
 .unoccupied {
          color: red;
         }
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+h1, h2 {
+    color: #333;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+h1 {
+    color: #333;
+}
+
+.menu {
+    margin-bottom: 20px;
+}
+
+.menu button {
+    margin-right: 10px;
+    padding: 10px 15px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.menu button:hover {
+    background-color: #0056b3;
+}
+
+.plot img {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #ccc;
+    padding: 10px;
+}

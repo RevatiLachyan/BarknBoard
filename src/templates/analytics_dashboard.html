@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Analytics Dashboard</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <script>
+        function loadPlot(plotType) {
+            window.location.href = `/analytics_dashboard/${plotType}`;
+        }
+    </script>
+</head>
+<body>
+    <h1>Analytics Dashboard</h1>
+
+    <div class="menu">
+        <button onclick="loadPlot('booking_trends')">Booking Trends</button>
+        <button onclick="loadPlot('kennel_occupancy')">Kennel Occupancy</button>
+        <button onclick="loadPlot('average_duration')">Average Booking Duration</button>
+        <button onclick="loadPlot('monthly_revenue')">Monthly Revenue</button>
+    </div>
+
+    <div class="plot">
+        {% if plot_data %}
+        <img src="data:image/png;base64,{{ plot_data }}" alt="{{ plot_type }}">
+        {% else %}
+        <p>Select a graph to view analytics.</p>
+        {% endif %}
+    </div>
+</body>
+</html>

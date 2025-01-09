@@ -703,3 +703,540 @@ AttributeError: 'NoneType' object has no attribute 'id'
                                           ^^^^^^^^^^^^^^^^^^^^^^^
 AttributeError: 'NoneType' object has no attribute 'id'
 
+2024-11-19 16:43:25,945 - ERROR - Error in login_route: Traceback (most recent call last):
+  File "C:\Users\revat\Documents\mongodb-quickstart-course\src\snake_bnb\src\app.py", line 140, in login
+    app.logger.info(f"Logged in as admin: {state.active_account.id}")
+                                           ^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'id'
+
+2024-11-19 16:43:25,945 - ERROR - Error in login_route: Traceback (most recent call last):
+  File "C:\Users\revat\Documents\mongodb-quickstart-course\src\snake_bnb\src\app.py", line 140, in login
+    app.logger.info(f"Logged in as admin: {state.active_account.id}")
+                                           ^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'id'
+
+2024-11-20 14:26:31,953 - ERROR - Error loading analytics dashboard: Traceback (most recent call last):
+  File "C:\Users\revat\Documents\mongodb-quickstart-course\src\snake_bnb\src\app.py", line 283, in analytics_dashboard
+    bookings = svc.get_all_bookings()
+               ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\revat\Documents\mongodb-quickstart-course\src\snake_bnb\src\services\data_service.py", line 302, in get_all_bookings
+    return Booking.objects()
+           ^^^^^^^^^^^^^^^
+AttributeError: type object 'Booking' has no attribute 'objects'
+
+2024-11-20 14:26:49,347 - ERROR - Error loading analytics dashboard: Traceback (most recent call last):
+  File "C:\Users\revat\Documents\mongodb-quickstart-course\src\snake_bnb\src\app.py", line 283, in analytics_dashboard
+    bookings = svc.get_all_bookings()
+               ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\revat\Documents\mongodb-quickstart-course\src\snake_bnb\src\services\data_service.py", line 302, in get_all_bookings
+    return Booking.objects()
+           ^^^^^^^^^^^^^^^
+AttributeError: type object 'Booking' has no attribute 'objects'
+
+2024-11-20 14:26:49,347 - ERROR - Error loading analytics dashboard: Traceback (most recent call last):
+  File "C:\Users\revat\Documents\mongodb-quickstart-course\src\snake_bnb\src\app.py", line 283, in analytics_dashboard
+    bookings = svc.get_all_bookings()
+               ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\revat\Documents\mongodb-quickstart-course\src\snake_bnb\src\services\data_service.py", line 302, in get_all_bookings
+    return Booking.objects()
+           ^^^^^^^^^^^^^^^
+AttributeError: type object 'Booking' has no attribute 'objects'
+
+2024-11-20 14:29:44,511 - ERROR - Error loading analytics dashboard: Traceback (most recent call last):
+  File "C:\Users\revat\Documents\mongodb-quickstart-course\src\snake_bnb\src\app.py", line 283, in analytics_dashboard
+    bookings = svc.get_all_bookings()
+               ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\revat\Documents\mongodb-quickstart-course\src\snake_bnb\src\services\data_service.py", line 302, in get_all_bookings
+    return Booking.objects()
+           ^^^^^^^^^^^^^^^
+AttributeError: type object 'Booking' has no attribute 'objects'
+
+2024-11-20 14:29:44,511 - ERROR - Error loading analytics dashboard: Traceback (most recent call last):
+  File "C:\Users\revat\Documents\mongodb-quickstart-course\src\snake_bnb\src\app.py", line 283, in analytics_dashboard
+    bookings = svc.get_all_bookings()
+               ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\revat\Documents\mongodb-quickstart-course\src\snake_bnb\src\services\data_service.py", line 302, in get_all_bookings
+    return Booking.objects()
+           ^^^^^^^^^^^^^^^
+AttributeError: type object 'Booking' has no attribute 'objects'
+
+2024-11-20 14:32:28,704 - ERROR - Error loading analytics dashboard: Traceback (most recent call last):
+  File "C:\Users\revat\Documents\mongodb-quickstart-course\src\snake_bnb\src\app.py", line 283, in analytics_dashboard
+    bookings = svc.get_all_bookings()
+               ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\revat\Documents\mongodb-quickstart-course\src\snake_bnb\src\services\data_service.py", line 305, in get_all_bookings
+    return Booking.objects()
+           ^^^^^^^^^^^^^^^
+AttributeError: type object 'Booking' has no attribute 'objects'
+
+2024-11-20 14:32:28,704 - ERROR - Error loading analytics dashboard: Traceback (most recent call last):
+  File "C:\Users\revat\Documents\mongodb-quickstart-course\src\snake_bnb\src\app.py", line 283, in analytics_dashboard
+    bookings = svc.get_all_bookings()
+               ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\revat\Documents\mongodb-quickstart-course\src\snake_bnb\src\services\data_service.py", line 305, in get_all_bookings
+    return Booking.objects()
+           ^^^^^^^^^^^^^^^
+AttributeError: type object 'Booking' has no attribute 'objects'
+
+2024-11-21 11:21:31,892 - ERROR - Error loading analytics dashboard: Traceback (most recent call last):
+  File "C:\Users\revat\Documents\mongodb-quickstart-course\src\snake_bnb\src\app.py", line 283, in analytics_dashboard
+    bookings = svc.get_all_bookings()
+               ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\revat\Documents\mongodb-quickstart-course\src\snake_bnb\src\services\data_service.py", line 305, in get_all_bookings
+    return Booking.objects.all()
+           ^^^^^^^^^^^^^^^
+AttributeError: type object 'Booking' has no attribute 'objects'
+
+2024-11-21 11:21:31,892 - ERROR - Error loading analytics dashboard: Traceback (most recent call last):
+  File "C:\Users\revat\Documents\mongodb-quickstart-course\src\snake_bnb\src\app.py", line 283, in analytics_dashboard
+    bookings = svc.get_all_bookings()
+               ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\revat\Documents\mongodb-quickstart-course\src\snake_bnb\src\services\data_service.py", line 305, in get_all_bookings
+    return Booking.objects.all()
+           ^^^^^^^^^^^^^^^
+AttributeError: type object 'Booking' has no attribute 'objects'
+
+2024-11-21 11:22:46,114 - ERROR - Error loading analytics dashboard: Traceback (most recent call last):
+  File "C:\Users\revat\Documents\mongodb-quickstart-course\src\snake_bnb\src\app.py", line 284, in analytics_dashboard
+    bookings = svc.get_all_bookings()
+               ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\revat\Documents\mongodb-quickstart-course\src\snake_bnb\src\services\data_service.py", line 305, in get_all_bookings
+    return Booking.objects.all()
+           ^^^^^^^^^^^^^^^
+AttributeError: type object 'Booking' has no attribute 'objects'
+
+2024-11-21 11:22:46,114 - ERROR - Error loading analytics dashboard: Traceback (most recent call last):
+  File "C:\Users\revat\Documents\mongodb-quickstart-course\src\snake_bnb\src\app.py", line 284, in analytics_dashboard
+    bookings = svc.get_all_bookings()
+               ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\revat\Documents\mongodb-quickstart-course\src\snake_bnb\src\services\data_service.py", line 305, in get_all_bookings
+    return Booking.objects.all()
+           ^^^^^^^^^^^^^^^
+AttributeError: type object 'Booking' has no attribute 'objects'
+
+2024-11-21 11:23:40,604 - ERROR - Error loading analytics dashboard: Traceback (most recent call last):
+  File "C:\Users\revat\Documents\mongodb-quickstart-course\src\snake_bnb\src\app.py", line 284, in analytics_dashboard
+    bookings = svc.get_all_bookings()
+               ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\revat\Documents\mongodb-quickstart-course\src\snake_bnb\src\services\data_service.py", line 305, in get_all_bookings
+    return Booking.objects.all()
+           ^^^^^^^^^^^^^^^
+AttributeError: type object 'Booking' has no attribute 'objects'
+
+2024-11-21 11:23:40,604 - ERROR - Error loading analytics dashboard: Traceback (most recent call last):
+  File "C:\Users\revat\Documents\mongodb-quickstart-course\src\snake_bnb\src\app.py", line 284, in analytics_dashboard
+    bookings = svc.get_all_bookings()
+               ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\revat\Documents\mongodb-quickstart-course\src\snake_bnb\src\services\data_service.py", line 305, in get_all_bookings
+    return Booking.objects.all()
+           ^^^^^^^^^^^^^^^
+AttributeError: type object 'Booking' has no attribute 'objects'
+
+2024-11-21 11:26:45,548 - ERROR - Error loading analytics dashboard: Traceback (most recent call last):
+  File "C:\Users\revat\Documents\mongodb-quickstart-course\src\snake_bnb\src\app.py", line 284, in analytics_dashboard
+    bookings = svc.get_all_bookings()
+               ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\revat\Documents\mongodb-quickstart-course\src\snake_bnb\src\services\data_service.py", line 306, in get_all_bookings
+    return Booking.objects.all()
+           ^^^^^^^^^^^^^^^
+AttributeError: type object 'Booking' has no attribute 'objects'
+
+2024-11-21 11:26:45,548 - ERROR - Error loading analytics dashboard: Traceback (most recent call last):
+  File "C:\Users\revat\Documents\mongodb-quickstart-course\src\snake_bnb\src\app.py", line 284, in analytics_dashboard
+    bookings = svc.get_all_bookings()
+               ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\revat\Documents\mongodb-quickstart-course\src\snake_bnb\src\services\data_service.py", line 306, in get_all_bookings
+    return Booking.objects.all()
+           ^^^^^^^^^^^^^^^
+AttributeError: type object 'Booking' has no attribute 'objects'
+
+2024-11-21 11:34:26,399 - ERROR - Error loading analytics dashboard: Traceback (most recent call last):
+  File "C:\Users\revat\Documents\mongodb-quickstart-course\src\snake_bnb\src\app.py", line 284, in analytics_dashboard
+    bookings = svc.get_all_bookings()
+               ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\revat\Documents\mongodb-quickstart-course\src\snake_bnb\src\services\data_service.py", line 306, in get_all_bookings
+    return Booking.objects.all()
+           ^^^^^^^^^^^^^^^
+AttributeError: type object 'Booking' has no attribute 'objects'
+
+2024-11-21 11:34:26,399 - ERROR - Error loading analytics dashboard: Traceback (most recent call last):
+  File "C:\Users\revat\Documents\mongodb-quickstart-course\src\snake_bnb\src\app.py", line 284, in analytics_dashboard
+    bookings = svc.get_all_bookings()
+               ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\revat\Documents\mongodb-quickstart-course\src\snake_bnb\src\services\data_service.py", line 306, in get_all_bookings
+    return Booking.objects.all()
+           ^^^^^^^^^^^^^^^
+AttributeError: type object 'Booking' has no attribute 'objects'
+
+2024-11-21 11:48:29,301 - ERROR - Error loading analytics dashboard: Traceback (most recent call last):
+  File "C:\Users\revat\Documents\mongodb-quickstart-course\src\snake_bnb\src\app.py", line 284, in analytics_dashboard
+    bookings = svc.get_all_bookings()
+               ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\revat\Documents\mongodb-quickstart-course\src\snake_bnb\src\services\data_service.py", line 308, in get_all_bookings
+    for kennel in kennels:
+  File "C:\Users\revat\Documents\mongodb-quickstart-course\src\snake_bnb\src\venv\Lib\site-packages\mongoengine\queryset\queryset.py", line 109, in _iter_results
+    self._populate_cache()
+  File "C:\Users\revat\Documents\mongodb-quickstart-course\src\snake_bnb\src\venv\Lib\site-packages\mongoengine\queryset\queryset.py", line 128, in _populate_cache
+    self._result_cache.append(next(self))
+                              ^^^^^^^^^^
+  File "C:\Users\revat\Documents\mongodb-quickstart-course\src\snake_bnb\src\venv\Lib\site-packages\mongoengine\queryset\base.py", line 1634, in __next__
+    doc = self._document._from_son(
+          ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\revat\Documents\mongodb-quickstart-course\src\snake_bnb\src\venv\Lib\site-packages\mongoengine\base\document.py", line 815, in _from_son
+    value if value is None else field.to_python(value)
+                                ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\revat\Documents\mongodb-quickstart-course\src\snake_bnb\src\venv\Lib\site-packages\mongoengine\base\fields.py", line 380, in to_python
+    key: self.field.to_python(item) for key, item in value.items()
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\revat\Documents\mongodb-quickstart-course\src\snake_bnb\src\venv\Lib\site-packages\mongoengine\fields.py", line 744, in to_python
+    return self.document_type._from_son(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\revat\Documents\mongodb-quickstart-course\src\snake_bnb\src\venv\Lib\site-packages\mongoengine\base\document.py", line 834, in _from_son
+    obj = cls(__auto_convert=False, _created=created, **data)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\revat\Documents\mongodb-quickstart-course\src\snake_bnb\src\venv\Lib\site-packages\mongoengine\document.py", line 90, in __init__
+    super().__init__(*args, **kwargs)
+  File "C:\Users\revat\Documents\mongodb-quickstart-course\src\snake_bnb\src\venv\Lib\site-packages\mongoengine\base\document.py", line 99, in __init__
+    raise FieldDoesNotExist(msg)
+mongoengine.errors.FieldDoesNotExist: The fields "{'rating'}" do not exist on the document "Booking"
+
+2024-11-21 11:48:29,301 - ERROR - Error loading analytics dashboard: Traceback (most recent call last):
+  File "C:\Users\revat\Documents\mongodb-quickstart-course\src\snake_bnb\src\app.py", line 284, in analytics_dashboard
+    bookings = svc.get_all_bookings()
+               ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\revat\Documents\mongodb-quickstart-course\src\snake_bnb\src\services\data_service.py", line 308, in get_all_bookings
+    for kennel in kennels:
+  File "C:\Users\revat\Documents\mongodb-quickstart-course\src\snake_bnb\src\venv\Lib\site-packages\mongoengine\queryset\queryset.py", line 109, in _iter_results
+    self._populate_cache()
+  File "C:\Users\revat\Documents\mongodb-quickstart-course\src\snake_bnb\src\venv\Lib\site-packages\mongoengine\queryset\queryset.py", line 128, in _populate_cache
+    self._result_cache.append(next(self))
+                              ^^^^^^^^^^
+  File "C:\Users\revat\Documents\mongodb-quickstart-course\src\snake_bnb\src\venv\Lib\site-packages\mongoengine\queryset\base.py", line 1634, in __next__
+    doc = self._document._from_son(
+          ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\revat\Documents\mongodb-quickstart-course\src\snake_bnb\src\venv\Lib\site-packages\mongoengine\base\document.py", line 815, in _from_son
+    value if value is None else field.to_python(value)
+                                ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\revat\Documents\mongodb-quickstart-course\src\snake_bnb\src\venv\Lib\site-packages\mongoengine\base\fields.py", line 380, in to_python
+    key: self.field.to_python(item) for key, item in value.items()
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\revat\Documents\mongodb-quickstart-course\src\snake_bnb\src\venv\Lib\site-packages\mongoengine\fields.py", line 744, in to_python
+    return self.document_type._from_son(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\revat\Documents\mongodb-quickstart-course\src\snake_bnb\src\venv\Lib\site-packages\mongoengine\base\document.py", line 834, in _from_son
+    obj = cls(__auto_convert=False, _created=created, **data)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\revat\Documents\mongodb-quickstart-course\src\snake_bnb\src\venv\Lib\site-packages\mongoengine\document.py", line 90, in __init__
+    super().__init__(*args, **kwargs)
+  File "C:\Users\revat\Documents\mongodb-quickstart-course\src\snake_bnb\src\venv\Lib\site-packages\mongoengine\base\document.py", line 99, in __init__
+    raise FieldDoesNotExist(msg)
+mongoengine.errors.FieldDoesNotExist: The fields "{'rating'}" do not exist on the document "Booking"
+
+2024-11-21 11:49:37,048 - ERROR - Error loading analytics dashboard: Traceback (most recent call last):
+  File "C:\Users\revat\Documents\mongodb-quickstart-course\src\snake_bnb\src\app.py", line 291, in analytics_dashboard
+    kennel_usage = svc.get_kennel_usage_data(bookings, kennels)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\revat\Documents\mongodb-quickstart-course\src\snake_bnb\src\services\data_service.py", line 330, in get_kennel_usage_data
+    kennel_usage[booking.kennel.id] += 1
+                 ^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'kennel'
+
+2024-11-21 11:49:37,048 - ERROR - Error loading analytics dashboard: Traceback (most recent call last):
+  File "C:\Users\revat\Documents\mongodb-quickstart-course\src\snake_bnb\src\app.py", line 291, in analytics_dashboard
+    kennel_usage = svc.get_kennel_usage_data(bookings, kennels)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\revat\Documents\mongodb-quickstart-course\src\snake_bnb\src\services\data_service.py", line 330, in get_kennel_usage_data
+    kennel_usage[booking.kennel.id] += 1
+                 ^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'kennel'
+
+2024-11-21 11:54:37,651 - ERROR - Error loading analytics dashboard: Traceback (most recent call last):
+  File "C:\Users\revat\Documents\mongodb-quickstart-course\src\snake_bnb\src\app.py", line 291, in analytics_dashboard
+    kennel_usage = svc.get_kennel_usage_data(bookings, kennels)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\revat\Documents\mongodb-quickstart-course\src\snake_bnb\src\services\data_service.py", line 333, in get_kennel_usage_data
+    if booking.kennel:
+       ^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'kennel'
+
+2024-11-21 11:54:37,651 - ERROR - Error loading analytics dashboard: Traceback (most recent call last):
+  File "C:\Users\revat\Documents\mongodb-quickstart-course\src\snake_bnb\src\app.py", line 291, in analytics_dashboard
+    kennel_usage = svc.get_kennel_usage_data(bookings, kennels)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\revat\Documents\mongodb-quickstart-course\src\snake_bnb\src\services\data_service.py", line 333, in get_kennel_usage_data
+    if booking.kennel:
+       ^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'kennel'
+
+2024-11-21 13:31:52,437 - ERROR - Error loading analytics dashboard: Traceback (most recent call last):
+  File "C:\Users\revat\Documents\mongodb-quickstart-course\src\snake_bnb\src\app.py", line 291, in analytics_dashboard
+    kennel_usage = svc.get_kennel_usage_data(bookings, kennels)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\revat\Documents\mongodb-quickstart-course\src\snake_bnb\src\services\data_service.py", line 333, in get_kennel_usage_data
+    if booking.kennel:
+       ^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'kennel'
+
+2024-11-21 13:31:52,437 - ERROR - Error loading analytics dashboard: Traceback (most recent call last):
+  File "C:\Users\revat\Documents\mongodb-quickstart-course\src\snake_bnb\src\app.py", line 291, in analytics_dashboard
+    kennel_usage = svc.get_kennel_usage_data(bookings, kennels)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\revat\Documents\mongodb-quickstart-course\src\snake_bnb\src\services\data_service.py", line 333, in get_kennel_usage_data
+    if booking.kennel:
+       ^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'kennel'
+
+2024-11-21 13:37:55,727 - ERROR - Error loading analytics dashboard: Traceback (most recent call last):
+  File "C:\Users\revat\Documents\mongodb-quickstart-course\src\snake_bnb\src\app.py", line 292, in analytics_dashboard
+    booking_trends = svc.get_booking_trends(bookings)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\revat\Documents\mongodb-quickstart-course\src\snake_bnb\src\services\data_service.py", line 345, in get_booking_trends
+    data = [(b.check_in_date, b.check_out_date) for b in bookings]
+             ^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'check_in_date'
+
+2024-11-21 13:37:55,727 - ERROR - Error loading analytics dashboard: Traceback (most recent call last):
+  File "C:\Users\revat\Documents\mongodb-quickstart-course\src\snake_bnb\src\app.py", line 292, in analytics_dashboard
+    booking_trends = svc.get_booking_trends(bookings)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\revat\Documents\mongodb-quickstart-course\src\snake_bnb\src\services\data_service.py", line 345, in get_booking_trends
+    data = [(b.check_in_date, b.check_out_date) for b in bookings]
+             ^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'check_in_date'
+
+2024-11-21 13:40:17,351 - ERROR - Error loading analytics dashboard: Traceback (most recent call last):
+  File "C:\Users\revat\Documents\mongodb-quickstart-course\src\snake_bnb\src\app.py", line 292, in analytics_dashboard
+    booking_trends = svc.get_booking_trends(bookings)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\revat\Documents\mongodb-quickstart-course\src\snake_bnb\src\services\data_service.py", line 343, in get_booking_trends
+    data = [(b.check_in_date, b.check_out_date) for b in bookings]
+             ^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'check_in_date'
+
+2024-11-21 13:40:17,351 - ERROR - Error loading analytics dashboard: Traceback (most recent call last):
+  File "C:\Users\revat\Documents\mongodb-quickstart-course\src\snake_bnb\src\app.py", line 292, in analytics_dashboard
+    booking_trends = svc.get_booking_trends(bookings)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\revat\Documents\mongodb-quickstart-course\src\snake_bnb\src\services\data_service.py", line 343, in get_booking_trends
+    data = [(b.check_in_date, b.check_out_date) for b in bookings]
+             ^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'check_in_date'
+
+2025-01-07 19:22:06,107 - ERROR - Error loading analytics dashboard: Traceback (most recent call last):
+  File "C:\Users\revat\Documents\mongodb-quickstart-course\src\snake_bnb\src\app.py", line 292, in analytics_dashboard
+    booking_trends = svc.get_booking_trends(bookings)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\revat\Documents\mongodb-quickstart-course\src\snake_bnb\src\services\data_service.py", line 343, in get_booking_trends
+    data = [(b.check_in_date, b.check_out_date) for b in bookings]
+             ^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'check_in_date'
+
+2025-01-07 19:22:06,107 - ERROR - Error loading analytics dashboard: Traceback (most recent call last):
+  File "C:\Users\revat\Documents\mongodb-quickstart-course\src\snake_bnb\src\app.py", line 292, in analytics_dashboard
+    booking_trends = svc.get_booking_trends(bookings)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\revat\Documents\mongodb-quickstart-course\src\snake_bnb\src\services\data_service.py", line 343, in get_booking_trends
+    data = [(b.check_in_date, b.check_out_date) for b in bookings]
+             ^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'check_in_date'
+
+2025-01-07 19:36:35,771 - ERROR - Error loading analytics dashboard: Traceback (most recent call last):
+  File "C:\Users\revat\Documents\mongodb-quickstart-course\src\snake_bnb\src\app.py", line 291, in analytics_dashboard
+    plot_data = svc.get_kennel_occupancy(kennels, bookings)
+                ^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'services.data_service' has no attribute 'get_kennel_occupancy'
+
+2025-01-07 19:36:35,771 - ERROR - Error loading analytics dashboard: Traceback (most recent call last):
+  File "C:\Users\revat\Documents\mongodb-quickstart-course\src\snake_bnb\src\app.py", line 291, in analytics_dashboard
+    plot_data = svc.get_kennel_occupancy(kennels, bookings)
+                ^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'services.data_service' has no attribute 'get_kennel_occupancy'
+
+2025-01-07 19:39:52,540 - ERROR - Error loading analytics dashboard: Traceback (most recent call last):
+  File "C:\Users\revat\Documents\mongodb-quickstart-course\src\snake_bnb\src\app.py", line 291, in analytics_dashboard
+    plot_data = svc.get_kennel_occupancy(kennels, bookings)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\revat\Documents\mongodb-quickstart-course\src\snake_bnb\src\services\data_service.py", line 367, in get_kennel_occupancy
+    data = [(b.kennel.id, b.check_in_date, b.check_out_date) for b in bookings if b.kennel.id in kennel_ids]
+                                                                                  ^^^^^^^^
+AttributeError: 'dict' object has no attribute 'kennel'
+
+2025-01-07 19:39:52,540 - ERROR - Error loading analytics dashboard: Traceback (most recent call last):
+  File "C:\Users\revat\Documents\mongodb-quickstart-course\src\snake_bnb\src\app.py", line 291, in analytics_dashboard
+    plot_data = svc.get_kennel_occupancy(kennels, bookings)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\revat\Documents\mongodb-quickstart-course\src\snake_bnb\src\services\data_service.py", line 367, in get_kennel_occupancy
+    data = [(b.kennel.id, b.check_in_date, b.check_out_date) for b in bookings if b.kennel.id in kennel_ids]
+                                                                                  ^^^^^^^^
+AttributeError: 'dict' object has no attribute 'kennel'
+
+2025-01-07 19:44:06,170 - ERROR - Error loading analytics dashboard: Traceback (most recent call last):
+  File "C:\Users\revat\Documents\mongodb-quickstart-course\src\snake_bnb\src\app.py", line 291, in analytics_dashboard
+    plot_data = svc.get_kennel_occupancy(kennels, bookings)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\revat\Documents\mongodb-quickstart-course\src\snake_bnb\src\services\data_service.py", line 367, in get_kennel_occupancy
+    data = [(b.kennel.id, b.duration_in_days) for b in bookings if b.kennel]
+                                                                   ^^^^^^^^
+AttributeError: 'dict' object has no attribute 'kennel'
+
+2025-01-07 19:44:06,170 - ERROR - Error loading analytics dashboard: Traceback (most recent call last):
+  File "C:\Users\revat\Documents\mongodb-quickstart-course\src\snake_bnb\src\app.py", line 291, in analytics_dashboard
+    plot_data = svc.get_kennel_occupancy(kennels, bookings)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\revat\Documents\mongodb-quickstart-course\src\snake_bnb\src\services\data_service.py", line 367, in get_kennel_occupancy
+    data = [(b.kennel.id, b.duration_in_days) for b in bookings if b.kennel]
+                                                                   ^^^^^^^^
+AttributeError: 'dict' object has no attribute 'kennel'
+
+2025-01-07 19:47:02,603 - ERROR - Error loading analytics dashboard: Traceback (most recent call last):
+  File "C:\Users\revat\Documents\mongodb-quickstart-course\src\snake_bnb\src\app.py", line 291, in analytics_dashboard
+    plot_data = svc.get_kennel_occupancy(kennels, bookings)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\revat\Documents\mongodb-quickstart-course\src\snake_bnb\src\services\data_service.py", line 388, in get_kennel_occupancy
+    kennel_occupancy.plot(kind='pie', ax=ax, autopct='%1.1f%%', startangle=90, colormap='Set3')
+  File "C:\Users\revat\Documents\mongodb-quickstart-course\src\snake_bnb\src\venv\Lib\site-packages\pandas\plotting\_core.py", line 1030, in __call__
+    return plot_backend.plot(data, kind=kind, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\revat\Documents\mongodb-quickstart-course\src\snake_bnb\src\venv\Lib\site-packages\pandas\plotting\_matplotlib\__init__.py", line 71, in plot
+    plot_obj.generate()
+  File "C:\Users\revat\Documents\mongodb-quickstart-course\src\snake_bnb\src\venv\Lib\site-packages\pandas\plotting\_matplotlib\core.py", line 499, in generate
+    self._compute_plot_data()
+  File "C:\Users\revat\Documents\mongodb-quickstart-course\src\snake_bnb\src\venv\Lib\site-packages\pandas\plotting\_matplotlib\core.py", line 698, in _compute_plot_data
+    raise TypeError("no numeric data to plot")
+TypeError: no numeric data to plot
+
+2025-01-07 19:47:02,603 - ERROR - Error loading analytics dashboard: Traceback (most recent call last):
+  File "C:\Users\revat\Documents\mongodb-quickstart-course\src\snake_bnb\src\app.py", line 291, in analytics_dashboard
+    plot_data = svc.get_kennel_occupancy(kennels, bookings)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\revat\Documents\mongodb-quickstart-course\src\snake_bnb\src\services\data_service.py", line 388, in get_kennel_occupancy
+    kennel_occupancy.plot(kind='pie', ax=ax, autopct='%1.1f%%', startangle=90, colormap='Set3')
+  File "C:\Users\revat\Documents\mongodb-quickstart-course\src\snake_bnb\src\venv\Lib\site-packages\pandas\plotting\_core.py", line 1030, in __call__
+    return plot_backend.plot(data, kind=kind, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\revat\Documents\mongodb-quickstart-course\src\snake_bnb\src\venv\Lib\site-packages\pandas\plotting\_matplotlib\__init__.py", line 71, in plot
+    plot_obj.generate()
+  File "C:\Users\revat\Documents\mongodb-quickstart-course\src\snake_bnb\src\venv\Lib\site-packages\pandas\plotting\_matplotlib\core.py", line 499, in generate
+    self._compute_plot_data()
+  File "C:\Users\revat\Documents\mongodb-quickstart-course\src\snake_bnb\src\venv\Lib\site-packages\pandas\plotting\_matplotlib\core.py", line 698, in _compute_plot_data
+    raise TypeError("no numeric data to plot")
+TypeError: no numeric data to plot
+
+2025-01-07 19:47:19,686 - ERROR - Error loading analytics dashboard: Traceback (most recent call last):
+  File "C:\Users\revat\Documents\mongodb-quickstart-course\src\snake_bnb\src\app.py", line 293, in analytics_dashboard
+    plot_data = svc.get_average_booking_duration(bookings)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\revat\Documents\mongodb-quickstart-course\src\snake_bnb\src\services\data_service.py", line 406, in get_average_booking_duration
+    data = [(b.check_in_date, b.duration_in_days) for b in bookings]
+             ^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'check_in_date'
+
+2025-01-07 19:47:19,686 - ERROR - Error loading analytics dashboard: Traceback (most recent call last):
+  File "C:\Users\revat\Documents\mongodb-quickstart-course\src\snake_bnb\src\app.py", line 293, in analytics_dashboard
+    plot_data = svc.get_average_booking_duration(bookings)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\revat\Documents\mongodb-quickstart-course\src\snake_bnb\src\services\data_service.py", line 406, in get_average_booking_duration
+    data = [(b.check_in_date, b.duration_in_days) for b in bookings]
+             ^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'check_in_date'
+
+2025-01-07 19:47:21,703 - ERROR - Error loading analytics dashboard: Traceback (most recent call last):
+  File "C:\Users\revat\Documents\mongodb-quickstart-course\src\snake_bnb\src\app.py", line 295, in analytics_dashboard
+    plot_data = svc.get_monthly_revenue(bookings)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\revat\Documents\mongodb-quickstart-course\src\snake_bnb\src\services\data_service.py", line 431, in get_monthly_revenue
+    data = [(b.check_in_date, b.duration_in_days * 50) for b in bookings]  # Replace 50 with actual rate/day
+             ^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'check_in_date'
+
+2025-01-07 19:47:21,703 - ERROR - Error loading analytics dashboard: Traceback (most recent call last):
+  File "C:\Users\revat\Documents\mongodb-quickstart-course\src\snake_bnb\src\app.py", line 295, in analytics_dashboard
+    plot_data = svc.get_monthly_revenue(bookings)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\revat\Documents\mongodb-quickstart-course\src\snake_bnb\src\services\data_service.py", line 431, in get_monthly_revenue
+    data = [(b.check_in_date, b.duration_in_days * 50) for b in bookings]  # Replace 50 with actual rate/day
+             ^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'check_in_date'
+
+2025-01-07 19:47:32,380 - ERROR - Error loading analytics dashboard: Traceback (most recent call last):
+  File "C:\Users\revat\Documents\mongodb-quickstart-course\src\snake_bnb\src\app.py", line 293, in analytics_dashboard
+    plot_data = svc.get_average_booking_duration(bookings)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\revat\Documents\mongodb-quickstart-course\src\snake_bnb\src\services\data_service.py", line 406, in get_average_booking_duration
+    data = [(b.check_in_date, b.duration_in_days) for b in bookings]
+             ^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'check_in_date'
+
+2025-01-07 19:47:32,380 - ERROR - Error loading analytics dashboard: Traceback (most recent call last):
+  File "C:\Users\revat\Documents\mongodb-quickstart-course\src\snake_bnb\src\app.py", line 293, in analytics_dashboard
+    plot_data = svc.get_average_booking_duration(bookings)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\revat\Documents\mongodb-quickstart-course\src\snake_bnb\src\services\data_service.py", line 406, in get_average_booking_duration
+    data = [(b.check_in_date, b.duration_in_days) for b in bookings]
+             ^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'check_in_date'
+
+2025-01-07 19:49:11,397 - ERROR - Error loading analytics dashboard: Traceback (most recent call last):
+  File "C:\Users\revat\Documents\mongodb-quickstart-course\src\snake_bnb\src\app.py", line 295, in analytics_dashboard
+    plot_data = svc.get_monthly_revenue(bookings)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\revat\Documents\mongodb-quickstart-course\src\snake_bnb\src\services\data_service.py", line 431, in get_monthly_revenue
+    data = [(b['check_in_date'], b['duration_in_days'] * 50) for b in bookings]  # Replace 50 with actual rate/day
+                                 ~^^^^^^^^^^^^^^^^^^^^
+KeyError: 'duration_in_days'
+
+2025-01-07 19:49:11,397 - ERROR - Error loading analytics dashboard: Traceback (most recent call last):
+  File "C:\Users\revat\Documents\mongodb-quickstart-course\src\snake_bnb\src\app.py", line 295, in analytics_dashboard
+    plot_data = svc.get_monthly_revenue(bookings)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\revat\Documents\mongodb-quickstart-course\src\snake_bnb\src\services\data_service.py", line 431, in get_monthly_revenue
+    data = [(b['check_in_date'], b['duration_in_days'] * 50) for b in bookings]  # Replace 50 with actual rate/day
+                                 ~^^^^^^^^^^^^^^^^^^^^
+KeyError: 'duration_in_days'
+
+2025-01-08 13:19:45,323 - ERROR - Error loading analytics dashboard: Traceback (most recent call last):
+  File "C:\Users\revat\Documents\mongodb-quickstart-course\src\snake_bnb\src\app.py", line 291, in analytics_dashboard
+    plot_data = svc.get_kennel_occupancy(kennels, bookings)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\revat\Documents\mongodb-quickstart-course\src\snake_bnb\src\services\data_service.py", line 388, in get_kennel_occupancy
+    kennel_occupancy.plot(kind='pie', ax=ax, autopct='%1.1f%%', startangle=90, colormap='Set3')
+  File "C:\Users\revat\Documents\mongodb-quickstart-course\src\snake_bnb\src\venv\Lib\site-packages\pandas\plotting\_core.py", line 1030, in __call__
+    return plot_backend.plot(data, kind=kind, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\revat\Documents\mongodb-quickstart-course\src\snake_bnb\src\venv\Lib\site-packages\pandas\plotting\_matplotlib\__init__.py", line 71, in plot
+    plot_obj.generate()
+  File "C:\Users\revat\Documents\mongodb-quickstart-course\src\snake_bnb\src\venv\Lib\site-packages\pandas\plotting\_matplotlib\core.py", line 499, in generate
+    self._compute_plot_data()
+  File "C:\Users\revat\Documents\mongodb-quickstart-course\src\snake_bnb\src\venv\Lib\site-packages\pandas\plotting\_matplotlib\core.py", line 698, in _compute_plot_data
+    raise TypeError("no numeric data to plot")
+TypeError: no numeric data to plot
+
+2025-01-08 13:19:45,323 - ERROR - Error loading analytics dashboard: Traceback (most recent call last):
+  File "C:\Users\revat\Documents\mongodb-quickstart-course\src\snake_bnb\src\app.py", line 291, in analytics_dashboard
+    plot_data = svc.get_kennel_occupancy(kennels, bookings)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\revat\Documents\mongodb-quickstart-course\src\snake_bnb\src\services\data_service.py", line 388, in get_kennel_occupancy
+    kennel_occupancy.plot(kind='pie', ax=ax, autopct='%1.1f%%', startangle=90, colormap='Set3')
+  File "C:\Users\revat\Documents\mongodb-quickstart-course\src\snake_bnb\src\venv\Lib\site-packages\pandas\plotting\_core.py", line 1030, in __call__
+    return plot_backend.plot(data, kind=kind, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\revat\Documents\mongodb-quickstart-course\src\snake_bnb\src\venv\Lib\site-packages\pandas\plotting\_matplotlib\__init__.py", line 71, in plot
+    plot_obj.generate()
+  File "C:\Users\revat\Documents\mongodb-quickstart-course\src\snake_bnb\src\venv\Lib\site-packages\pandas\plotting\_matplotlib\core.py", line 499, in generate
+    self._compute_plot_data()
+  File "C:\Users\revat\Documents\mongodb-quickstart-course\src\snake_bnb\src\venv\Lib\site-packages\pandas\plotting\_matplotlib\core.py", line 698, in _compute_plot_data
+    raise TypeError("no numeric data to plot")
+TypeError: no numeric data to plot
+
+2025-01-08 14:11:54,958 - ERROR - Error loading analytics dashboard: Traceback (most recent call last):
+  File "C:\Users\revat\Documents\mongodb-quickstart-course\src\snake_bnb\src\app.py", line 297, in analytics_dashboard
+    plot_data = svc.get_kennel_occupancy(kennels, bookings)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: get_kennel_occupancy() takes 1 positional argument but 2 were given
+
+2025-01-08 14:11:54,958 - ERROR - Error loading analytics dashboard: Traceback (most recent call last):
+  File "C:\Users\revat\Documents\mongodb-quickstart-course\src\snake_bnb\src\app.py", line 297, in analytics_dashboard
+    plot_data = svc.get_kennel_occupancy(kennels, bookings)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: get_kennel_occupancy() takes 1 positional argument but 2 were given
+

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Menu - Bark n Board</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <script src="{{ url_for('static', filename='js/script.js') }}" defer></script>
+</head>
+<body>
+
+    <h1>Welcome to Bark n Board!</h1>
+    <h2>Admin Menu</h2>
+{% with messages = get_flashed_messages(with_categories=True) %}
+        {% if messages %}
+                {% for category, msg in messages %}
+                <div class="flash-{{ category }}">
+                <p>{{msg}}</p>
+                </div>
+                {% endfor %}
+        {% endif %}
+    {% endwith %}
+    <!-- Welcome message with host's name -->
+    <div class="welcome-message">
+        <p>Hello, admin! This is the admin page</p>
+        <p><a href="{{ url_for('analytics_dashboard') }}">View Analytics Dashboard</a></p>
+    </div>
+
+
+    <a href="{{ url_for('logout') }}">Logout</a>
+</body>
+</html>

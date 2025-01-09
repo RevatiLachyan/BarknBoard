@@ -2,11 +2,15 @@ from typing import List, Optional
 import datetime
 from colorama import Fore
 import bson
-from data.bookings import Booking
 from data.kennels import Kennel
 from data.owners import Owner
 from data.dogs import Dog
+from data.bookings import Booking
 import logging
+import matplotlib.pyplot as plt
+from io import BytesIO
+import base64
+import pandas as pd
 
 
 def create_account(name: str, email: str) -> Owner:
@@ -288,3 +292,169 @@ def is_kennel_occupied(kennel_id):
                 return True
 
     return False
+
+
+ADMIN_EMAILS = ["admin@example.com", "superuser@example.com"]
+
+
+def is_admin(email: str) -> bool:
+    return email in ADMIN_EMAILS
+
+
+def get_all_bookings():
+    all_bookings = []
+    # Iterate over all Kennel documents
+    kennels = Kennel.objects.all()
+    for kennel in kennels:
+        for booking in kennel.bookings:  # Access embedded bookings
+            all_bookings.append({
+                "kennel_name": kennel.name,  # Kennel field for context
+                "guest_owner_id": booking.guest_owner_id,
+                "guest_dog_id": booking.guest_dog_id,
+                "booked_date": booking.booked_date,
+                "check_in_date": booking.check_in_date,
+                "check_out_date": booking.check_out_date,
+            })
+    return all_bookings
+
+
+def get_all_kennels():
+    # Fetch all kennels from the database
+    return Kennel.objects()
+
+
+def get_kennel_usage_data(bookings, kennels):
+    # Initialize the kennel usage counter
+    kennel_usage = {kennel.id: 0 for kennel in kennels}
+
+    # Iterate through bookings (ensure bookings are actual objects)
+    for booking in bookings:
+        if isinstance(booking, Booking):
+            # Debugging line to check the booking's kennel
+            print(f"Booking's kennel: {booking.kennel}")
+            if booking.kennel:
+                kennel_usage[booking.kennel.id] += 1
+
+    return kennel_usage
+
+
+def get_booking_trends(bookings):
+    # Example: Count bookings per month
+    data = [(b['check_in_date'], b['check_out_date']) for b in bookings]
+    df = pd.DataFrame(data, columns=['check_in_date', 'check_out_date'])
+    df['month'] = df['check_in_date'].dt.to_period('M')
+    monthly_bookings = df.groupby('month').size()
+
+    # Generate a plot
+    fig, ax = plt.subplots(figsize=(10, 6))
+    monthly_bookings.plot(kind='bar', ax=ax, color='skyblue')
+    ax.set_title("Monthly Booking Trends")
+    ax.set_xlabel("Month")
+    ax.set_ylabel("Number of Bookings")
+
+    # Save plot as base64
+    buffer = BytesIO()
+    plt.savefig(buffer, format='png')
+    buffer.seek(0)
+    plot_url = base64.b64encode(buffer.getvalue()).decode('utf-8')
+    buffer.close()
+
+    return plot_url
+
+
+def get_kennel_occupancy(kennels):
+    print("Kennels:", kennels)
+
+    # Extract data from embedded bookings
+    data = []
+    for kennel in kennels:
+        for booking in kennel.bookings:  # Access embedded bookings directly
+            if booking.check_in_date and booking.check_out_date:
+                duration = (booking.check_out_date - booking.check_in_date).days
+                data.append((kennel.id, duration))  # Assuming 'kennel.id' is the identifier
+
+    print("Data:", data)  # Debugging
+
+    # Create DataFrame
+    df = pd.DataFrame(data, columns=['kennel_id', 'duration'])
+    print("DataFrame before cleaning:", df)  # Debugging
+
+    # Ensure 'duration' is numeric
+    df['duration'] = pd.to_numeric(df['duration'], errors='coerce')
+
+    # Drop rows with invalid or missing duration values
+    df = df.dropna(subset=['duration'])
+
+    print("DataFrame after cleaning:", df)  # Debugging
+
+    # Aggregate kennel occupancy
+    kennel_occupancy = df.groupby('kennel_id')['duration'].sum()
+    print("Kennel Occupancy:", kennel_occupancy)  # Debugging
+
+    # Generate pie chart
+    fig, ax = plt.subplots(figsize=(8, 8))
+    kennel_occupancy.plot(kind='pie', ax=ax, autopct='%1.1f%%', startangle=90, colormap='Set3')
+    ax.set_ylabel("")
+    ax.set_title("Kennel Occupancy Distribution")
+
+    # Save plot as base64
+    buffer = BytesIO()
+    plt.savefig(buffer, format='png')
+    buffer.seek(0)
+    plot_url = base64.b64encode(buffer.getvalue()).decode('utf-8')
+    buffer.close()
+
+    return plot_url
+
+
+
+
+
+def get_average_booking_duration(bookings):
+    # Calculate booking durations
+    data = [(b['check_in_date'], b['check_out_date']) for b in bookings]
+    df = pd.DataFrame(data, columns=['check_in_date', 'duration'])
+    df['month'] = df['check_in_date'].dt.to_period('M')
+    average_duration = df.groupby('month')['duration'].mean()
+
+    # Generate a scatter plot
+    fig, ax = plt.subplots(figsize=(10, 6))
+    ax.scatter(average_duration.index.to_timestamp(), average_duration, color='orange', s=100)
+    ax.set_title("Average Booking Duration per Month")
+    ax.set_xlabel("Month")
+    ax.set_ylabel("Average Duration (days)")
+
+    # Save plot as base64
+    buffer = BytesIO()
+    plt.savefig(buffer, format='png')
+    buffer.seek(0)
+    plot_url = base64.b64encode(buffer.getvalue()).decode('utf-8')
+    buffer.close()
+
+    return plot_url
+
+
+
+def get_monthly_revenue(bookings):
+    # Assuming each booking has a 'price' attribute
+    data = [(b['check_in_date'], (b['check_out_date']-b['check_in_date']).days * 50) for b in bookings]  # Replace 50 with actual rate/day
+    df = pd.DataFrame(data, columns=['check_in_date', 'revenue'])
+    df['month'] = df['check_in_date'].dt.to_period('M')
+    monthly_revenue = df.groupby('month')['revenue'].sum()
+
+    # Generate a line plot
+    fig, ax = plt.subplots(figsize=(10, 6))
+    monthly_revenue.plot(kind='line', ax=ax, marker='o', color='green')
+    ax.set_title("Monthly Revenue Trends")
+    ax.set_xlabel("Month")
+    ax.set_ylabel("Total Revenue")
+
+    # Save plot as base64
+    buffer = BytesIO()
+    plt.savefig(buffer, format='png')
+    buffer.seek(0)
+    plot_url = base64.b64encode(buffer.getvalue()).decode('utf-8')
+    buffer.close()
+
+    return plot_url
+

@@ -1,14 +1,14 @@
 import mongoengine
 
 from data.dogs import Dog
-from mongoengine import LazyReferenceField
+from mongoengine import ReferenceField
 
 
 class Booking(mongoengine.EmbeddedDocument):
-    kennel = LazyReferenceField('Kennel')
-    kennel_id = mongoengine.ObjectIdField()
+    kennel = ReferenceField('Kennel')
+    #kennel_id = mongoengine.ObjectIdField()
     guest_owner_id = mongoengine.ObjectIdField()
-    guest_dog_id = mongoengine.ObjectIdField()
+    guest_dog_id = ReferenceField('Dog')
 
     booked_date = mongoengine.DateTimeField()
     check_in_date = mongoengine.DateTimeField(required=True)

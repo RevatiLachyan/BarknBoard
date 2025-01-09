@@ -26,6 +26,12 @@ file_handler = RotatingFileHandler('complex.log', maxBytes=1024 * 1024 * 10, bac
 file_handler.setLevel(logging.INFO)  # Ensure level is set to INFO or lower
 file_handler.setFormatter(logging.Formatter('%(asctime)s - %(levelname)s - %(message)s'))
 app.logger.addHandler(file_handler)
+from pymongo import MongoClient
+
+client = MongoClient('localhost', 27017)
+db = client['your_db_name']
+print(db.list_collection_names())  # Should list 'bookings'
+
 
 print('test point 4')
 
@@ -95,6 +101,12 @@ def guest_home():
     return render_template('guest.html', name=name)
 
 
+@app.route('/admin_home')
+def admin_home():
+    print("Logged in as admin")
+    return render_template('admin.html')
+
+
 @app.route('/host_home')
 def host_home():
     name = state.active_account.name
@@ -128,8 +140,11 @@ def login():
             elif role == 'host':
                 app.logger.info(f"Logged in as host: {state.active_account.id}")
                 return redirect(url_for('host_home'))
+            elif svc.is_admin(email) and role == 'admin':
+                app.logger.info(f"Logged in as admin")
+                return redirect(url_for('admin_home'))
             else:
-                flash("Invalid role selected. Please choose either 'guest' or 'host'.")
+                flash("Invalid role selected. Please choose either 'guest' or 'host' or 'admin'.")
                 return redirect(url_for('home'))
 
         return render_template('index.html')
@@ -265,6 +280,38 @@ def add_available_date_route():
     # GET request: Show the form with a list of kennels
     kennels = Kennel.objects()  # Fetch all kennels
     return render_template('add_available_date.html', kennels=kennels)
+
+
+@app.route('/analytics_dashboard', methods=['GET'])
+@app.route('/analytics_dashboard/<plot_type>', methods=['GET'])
+def analytics_dashboard(plot_type="booking_trends"):
+    try:
+        # Fetch booking and kennel data
+        bookings = svc.get_all_bookings()
+        kennels = svc.get_all_kennels()
+
+        # Select plot data based on `plot_type`
+        if plot_type == 'booking_trends':
+            plot_data = svc.get_booking_trends(bookings)
+        elif plot_type == 'kennel_occupancy':
+            plot_data = svc.get_kennel_occupancy(kennels)
+        elif plot_type == 'average_duration':
+            plot_data = svc.get_average_booking_duration(bookings)
+        elif plot_type == 'monthly_revenue':
+            plot_data = svc.get_monthly_revenue(bookings)
+        else:
+            plot_data = None
+
+        return render_template(
+            'analytics_dashboard.html',
+            plot_data=plot_data,
+            plot_type=plot_type,
+        )
+    except Exception as e:
+        app.logger.error("Error loading analytics dashboard: %s", traceback.format_exc())
+        flash("An error occurred while loading the analytics dashboard.")
+        return redirect(url_for('admin_home'))
+
 
 
 if __name__ == '__main__':
